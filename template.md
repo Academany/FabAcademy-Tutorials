@@ -30,6 +30,10 @@ Text explaining what to do.
 
 ![image](images/yourtutorial/1.jpg)
 
+[![Embedded Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+
+[Video Link](https://youtubevideourl)
+
 >IMPORTANT STEP NOT TO MISS
 
 * Value or settings for software/machine
