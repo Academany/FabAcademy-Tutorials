@@ -1,8 +1,8 @@
 # FabAcademy-Tutorials
 A living collection of tutorials to support Fab Academy
 
-*Created by the instructors contribution*  
-*Maintaned by...*
+*Created by Fab Academy instructors around the world*  
+*Maintained by...*
 
 ### Tutorials Guide
 
@@ -24,4 +24,4 @@ A living collection of tutorials to support Fab Academy
 
 > Don't rely on a single tutorial. Check the the multiple tutorials and look for other resources.
 
-Minor changes will be made to this document thoughout Fab Academy, additions are always welcome but don't duplicate information, just update the tutorials.
+Changes will be made to this document thoughout Fab Academy, additions are always welcome but don't duplicate information, just update the tutorials.

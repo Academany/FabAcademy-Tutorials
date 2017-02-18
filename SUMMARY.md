@@ -17,12 +17,11 @@
 * [3D Modeling Tools and Video Tutorials](week2_computer_aided_design/3d_cad_tools.md)
 * [Unwrap with Blender](week2_computer_aided_design/unwrap_blender.md)
 * [Matt Keeter's guide to Antimony](https://github.com/mkeeter/antimony/blob/develop/doc/USAGE.md)
-* [Matt Keeter's guide to Antimony](https://github.com/mkeeter/antimony/blob/develop/doc/USAGE.md)
 
 ### Week 3: Computer-Controlled Cutting
 
 ### Week 4: Electronics Production
-* [SRM20_windows_english](week4_electronic_production/srm2_windows.md)
+* [SRM20_windows_english](week4_electronic_production/srm20_windows.md)
 * [Flexible_PCB_windows_english](week4_electronic_production/flexible_pcb_windows_mac.md)
 ### Week 5: 3D scanning and printing
 
