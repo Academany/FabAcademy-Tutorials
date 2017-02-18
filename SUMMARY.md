@@ -7,7 +7,7 @@
 
 * [Git Extended Cheat Sheet](week1_principles_practices_project_management/git_cheat_sheet.md)
 * [Resources for learning HTML+CSS](week1_principles_practices_project_management/html_css.md)
-* [Git vs. Mercurial]((week1_principles_practices_project_management/git_mercurial.md)
+* [Git vs. Mercurial](week1_principles_practices_project_management/git_mercurial.md)
 * [Template for Academy Website](https://github.com/openp2pdesign/FabAcademy_Template)
 
 ### Week 2: Computer Aided Design
@@ -23,8 +23,8 @@
 ### Week 4: Electronics Production
 * [SRM20_windows_english](week4_electronic_production/srm20_windows.md)
 * [Flexible_PCB_windows_english](week4_electronic_production/flexible_pcb_windows_mac.md)
-### Week 5: 3D scanning and printing
 
+### Week 5: 3D scanning and printing
 * [Introduction to 3d scanning and printing- Video](week5_3dscanning_and_printing/3d_scanning_printing.md)
 * [3d scanning Tools and Video Tutorials](week5_3dscanning_and_printing/3d_scanning_tools.md)
 
