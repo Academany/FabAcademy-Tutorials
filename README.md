@@ -22,6 +22,8 @@ A living collection of tutorials to support Fab Academy
 
 * If it is your first time with MARKDOWN language use this [guide](markdown_guide.md)
 
+* Don't leave the first line of code empty of gitbook will not index your tutorial.
+
 > Don't rely on a single tutorial. Check the the multiple tutorials and look for other resources.
 
 Changes will be made to this document thoughout Fab Academy, additions are always welcome but don't duplicate information, just update the tutorials.
