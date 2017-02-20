@@ -54,6 +54,7 @@
 ### Week 8: Embedded Programming
 
 * [What is Make and Makefiles](week8_embedded_programming/makefile.md)
+* [Timing an AVR microcontroller](week8_embedded_programming/timing.md)
 
 ### Week 9: Machine Building
 
