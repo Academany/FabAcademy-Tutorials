@@ -59,12 +59,11 @@ To accurately count a second, it doesn't make sense to count 20,000,000 clock cy
 
 * So what number shall we count to? In relation to the 20 MHz clock speed, a second is a very long time so it makes sense to pre-scale the timer to as slow as possible. So it will be incrementing at a rate of **20000000 Hz/1024 = 19531.25 Hz**. Counting to 65535 at this speed would take **65535/19431.25 = 3.355392 seconds**. Therefore 1 second will take** 65535/3.355392=19531.25** increments. To set this as the maximum the timer should count to, we set Output Compare Register 1 A **(OCR1A)** to 19531.
 
-That was everything required to prepare the timer, so the only thing remaining is to handle the interrupt. 
+That was everything required to prepare the timer, so the only thing remaining is to handle the interrupt.
 * Firstly, interrupts must be enabled with sei(). We then include the function that corresponds to the interrupt that we have activated; in this case setting the **OCIE1A** bit corresponds to the **TIM1_COMPA_vect** Interrupt Service Routine **(ISR)**. Inside this routine, we simply toggle the LED as before. Here is the completed program:
 
-    #include <avr/io.h>
-    #include <avr/interrupt.h> // notice that we have swapped libraries, from delay to interrupt
-
+      #include <avr/io.h>
+      #include <avr/interrupt.h> // notice that we have swapped libraries, from delay to interrupt
 
       int main (void) {
         DDRA |= (1 << PA7); // set LED pin as output
@@ -76,8 +75,6 @@ That was everything required to prepare the timer, so the only thing remaining i
         while(1) { // main loop - do anything you like here!
         }
       }
-
-
 
       ISR(TIM1_COMPA_vect) { // this function is called every time the timer reaches the threshold we set
         PORTA ^= (1 << PA7); // toggle the LED
