@@ -1,4 +1,4 @@
-# YOUR TUTORIAL TITLE
+# Antimony UI Drag Function Example
 
 ## In this tutorial we will add a dragging function to a point. It will change the size of two squares when dragging in the x direction. Their colour will change when dragging in the y direction. This is inspired by the [Processing Mouse1D example](https://processing.org/examples/mouse1d.html).
 

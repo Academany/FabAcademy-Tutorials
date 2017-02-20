@@ -24,8 +24,8 @@
 ### Week 3: Computer-Controlled Cutting
 
 * [Introduction to LaserCutter- Video](week3_computer_controlled_cutting/laser.md)
-* [Press-Fit Construction Tips/Resources](week3_computer_controlled_cutting/press_fit,md)
-* [Press-Fit Inkscape](week3_computer_controlled_cutting/press_fit_inkscape,md)
+* [Press-Fit Construction Tips/Resources](week3_computer_controlled_cutting/press_fit.md)
+* [Press-Fit Inkscape](week3_computer_controlled_cutting/press_fit_inkscape.md)
 
 ### Week 4: Electronics Production
 
