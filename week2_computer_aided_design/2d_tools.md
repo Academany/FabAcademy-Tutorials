@@ -1,8 +1,6 @@
-
 # 2D Design Tools and Tutorials
 
 ## Short introduction to the main strategies for geometric modeling, in 2D. Most of them are open source / freeware.
-
 
 ### Vector vs Bitmap
 **Bitmap / Pixelmap / Raster Graphics**
@@ -46,7 +44,6 @@ The term "raster" is used to describe both bitmaps and pixelmaps and indicates t
 [Youtube Link](https://www.youtube.com/watch?v=ylHJbLId2cg)
 
 [![IMAGE ALT TEXT](http://img.youtube.com/vi/ylHJbLId2cg/0.jpg)](https://www.youtube.com/watch?v=ylHJbLId2cg "INKSCAPE")
-
 
 
 Download and Install Inkscape

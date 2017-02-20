@@ -1,4 +1,3 @@
-
 # Making flexible PCBs with a Vinyl Cutter
 
 ## How to use a vinyl cutter to cut your flexible circuit boards!

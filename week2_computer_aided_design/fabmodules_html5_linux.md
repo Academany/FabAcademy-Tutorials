@@ -1,8 +1,4 @@
-
-
 # HTML5 FabModules setup tutorial
-
-
 
 ### This short tutorial shows how to setup the new HTML5-based version of Fab Modules
 

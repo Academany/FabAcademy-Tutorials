@@ -1,4 +1,3 @@
-
 # Molding and Casting
 
 Here's the video of the lecture about Molding and Casting from Opendot/WeMake in Milan. It is based on the [Digital Fabrication Studio](https://noppa.aalto.fi/noppa/kurssi/25438/etusivu) course I've been lecturing at[ Aalto University](http://www.aalto.fi/en/) - [School of Art, Design and Architecture](arts.aalto.fi/en/) - [Department of Media](http://media.aalto.fi/en/) - [Media Lab Helsinki](http://medialab.aalto.fi/).

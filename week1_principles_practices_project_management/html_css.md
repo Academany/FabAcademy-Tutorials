@@ -1,14 +1,9 @@
-
 # HTML+CSS
 
 ## Here you can find more resources about working with HTML+CSS.
 ![image](html_css/1.jpg)
 
-
-
 **Summary:**
-
-
 
 ### Video Lecture
 An improvised and incomplete introduction to HTML+CSS was recorded during Fab Academy 2015 at [Opendot](http://fabacademy.org/archives/2015/eu/labs/milan_od/index.html)+[Wemake](http://fabacademy.org/archives/2015/eu/labs/milan_wm/index.html) in Milan.
@@ -62,8 +57,6 @@ You can download it here: https://github.com/openp2pdesign/FabAcademy_Template/r
 
 Just note that for "safety" settings some Javascript parts don't work locally (on your computer) on Chrome, but work perfectly once online and on your computer with Firefox.
 
-
-
 **Original tutorial by:**
 
 * [Massimo Menichinelli ](mailto:massimo.menichinelli@aalto.fi)
@@ -71,4 +64,4 @@ Just note that for "safety" settings some Javascript parts don't work locally (o
 
 * Updated by [Eduardo Chamorro](http://eduardochamorro.github.io/beansreels/index.html), Fab Lab Seoul 01.2017
 
-Licensed under a [Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/) 
+Licensed under a [Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/)

@@ -1,4 +1,3 @@
-
 # 3D Modeling Tools and video tutorials
 
 ## Here's a series of short introduction to the main strategies for 3d geometric modeling. Most of them are open source / freeware.
