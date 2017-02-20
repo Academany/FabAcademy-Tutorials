@@ -423,4 +423,4 @@ Delete everything in the stash.
 
 * * *
 
-# [MORE INFO ](http://www.git-scm.com/book)
+[MORE INFO](http://www.git-scm.com/book)

@@ -1,11 +1,11 @@
-
 # Building the FabTinyISP
 
 ![image](fabtinyisp/06.jpg)
-**Summary:**  
+**Summary:**
+
 The FabTinyStar is yet another version of an AVR ISP programmer/board that can be produced in a fab lab using a milled PCB and readily available components. The project is based on the efforts of many people. For more history of the FabTinyStar and the people who have contributed to it, please refer to [Zaerc's FabTinyStar page](http://fabacademy.org/archives/2015/doc/projects/FabTinyStar/).
 
-  
+
 **Steps:**  
 * [Introduction](#introduction)  
 * [PCB Fabrication](#pcb-fabrication)  

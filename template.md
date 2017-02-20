@@ -1,10 +1,7 @@
-
 # YOUR TUTORIAL TITLE
 
 ## Short description of the tutorial itself and a Hero shot of the assignment.
-![image](images/yourtutorial/1.jpg)
-
-
+![image](yourtutorialnamefolder/1.jpg)
 
 **Summary:**
 
@@ -15,7 +12,6 @@
 *
 *
 
-
 ### Step 1 (DESCRIPTION OF THE STEP)
 Text explaining what to do.
 * List of elements/tools
@@ -24,11 +20,10 @@ Text explaining what to do.
 Links for other sources/ useful information [link](example link)
 [link](example link)
 
-
 ### Step 2: (DESCRIPTION OF THE STEP) *clarifier*
 Text explaining what to do.
 
-![image](images/yourtutorial/1.jpg)
+![image](yourtutorialnamefolder/1.jpg)
 
 [![Embedded Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 
@@ -41,22 +36,14 @@ Text explaining what to do.
 * y0(mm)  - *0*
 * z0(mm)  - *0*
 
-
 *Clarifier on the settings*
 
 Click **"calculate"**
 >Explanation of an important action
 
-![image](images/srm20/5.jpg)
+![image](yourtutorialnamefolder/5.jpg)
 
-
-
-
-
-
-**FINISH TUTORIAL - Enjoy your WELL DONE assignmentand clean your mess and files after you're done !**
-
-
+**FINISH TUTORIAL - Enjoy your WELL DONE assignment and clean your mess and files after you're done !**
 
 ### COMMON PROBLEMS/SOLUTIONS
 
@@ -69,7 +56,6 @@ Click **"calculate"**
 
   >SOLUTION 1
   >SOLUTION2
-
 
 **Original tutorial by:**
 

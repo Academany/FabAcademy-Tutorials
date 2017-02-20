@@ -1,20 +1,8 @@
-
 # 3d Scanning Tools and Tutorials
 
 ## Short introduction to the main strategies for 3d scanning. Most of them are open source / freeware.
 
-
-**Mesh Editing Software:**
-
-* [Link](example web address)
-* STEP BY STEP SHORT DESCRIPTION
-*
-*
-*
-*
-
-
-### Mesh Editing Software
+## Mesh Editing Software
 
 #### Netfabb
 
@@ -40,7 +28,7 @@ Download Netfabb Studio Basic
 [Meshmixer YouTube Chanel](https://www.youtube.com/user/meshmixer), videos on how to use Meshmixer with advanced tips and tricks
 
 
-### 3DScanning with a Scanner: Microsoft Kinect
+## 3DScanning with a Scanner: Microsoft Kinect
 
 The Kinect is good for creating scans of large objects, like people.
  It is not good for capturing fine detail and may blur facial features slightly. You need a good graphics card to run ReconstructMe and a Microsoft Kinect.

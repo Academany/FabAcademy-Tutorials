@@ -1,9 +1,7 @@
-
 # About Clock and Speed
 
 ## Why did we put a 20MHz crystal on the Hello FTDI?
 
-![image](srm20/002.jpg)
 
 Partially it's serial rates-- the 20MHz crystal comfortably achieves all but one of the standard speeds:
 
