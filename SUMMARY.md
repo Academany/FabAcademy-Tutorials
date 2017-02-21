@@ -9,6 +9,7 @@
 * [Resources for learning HTML+CSS](week1_principles_practices_project_management/html_css.md)
 * [Git vs. Mercurial](week1_principles_practices_project_management/git_mercurial.md)
 * [Templates/Resources](week1_principles_practices_project_management/templates_resources.md)
+* [Resize Images Gimp](week1_principles_practices_project_management/image_scaling.md)
 
 ### Week 2: Computer Aided Design
 
@@ -50,6 +51,7 @@
 ### Week 7: Computer-controlled machining
 
 * [Introduction to CNC- Video](week7_computer_controlled_machining/cnc.md)
+* [Guido to CNC A-Z](week7_computer_controlled_machining/cnc_tips.md)
 
 ### Week 8: Embedded Programming
 
@@ -78,4 +80,5 @@
 
 ### Bonus:
 
+* [Fabbercise](bonus/fabbercise.md)
 * [Tips and Tricks to Passing Fab Academy](bonus/tips_tricks.md)
