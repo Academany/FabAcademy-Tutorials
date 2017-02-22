@@ -31,9 +31,13 @@
 ### Week 4: Electronics Production
 
 * [FabTinyISP_english](week4_electronic_production/fabtinyisp_english.md)
+* [Fab ISP_english](week4_electronic_production/fabisp.md)
 * [Use an Arduino UNO as an ISP to program your first FabISP](week4_electronic_production/arduino_isp.md)
 * [SRM20_windows_english](week4_electronic_production/srm20_windows.md)
+* [PCB with a fiber laser cutter](week4_electronic_production/fiber_laser_pcb.md)
 * [Flexible_PCB_windows_english](week4_electronic_production/flexible_pcb_windows_mac.md)
+* [Fab Isp-Other models](week4_electronic_production/fabisp_models.md)
+* [ATtiny44 fuses](week4_electronic_production/attiny44_fuses/attiny44_fuses.html)
 
 
 ### Week 5: 3D scanning and printing
@@ -65,6 +69,7 @@
 ### Week 12: Molding and Casting
 
 * [Introduction to Molding and Casting- Video](week12_molding_and_casting/molding_casting.md)
+* [Molding and Casting - FabModules](week12_molding_and_casting/molding_fabmodules.md)
 
 ### Week 13: Output Devices
 
