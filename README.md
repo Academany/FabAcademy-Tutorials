@@ -6,6 +6,8 @@ A living collection of tutorials to support Fab Academy
 
 ### Tutorials Guide
 
+* If you want to add a tutorial, go to the [github](https://github.com/Academany/FabAcademy-Tutorials) to add it and ask to merge. 
+
 * You will find a folder for each week/assignment tutorial.
 
 * Use the template for creating a new tutorial and keep it simple. LESS IS MORE.
