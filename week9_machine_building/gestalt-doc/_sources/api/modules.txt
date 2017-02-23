@@ -1,0 +1,7 @@
+gestalt
+=======
+
+.. toctree::
+   :maxdepth: 4
+
+   gestalt

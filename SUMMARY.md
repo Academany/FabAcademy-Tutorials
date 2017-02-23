@@ -27,6 +27,7 @@
 * [Introduction to LaserCutter- Video](week3_computer_controlled_cutting/laser.md)
 * [Press-Fit Construction Tips/Resources](week3_computer_controlled_cutting/press_fit.md)
 * [Press-Fit Inkscape](week3_computer_controlled_cutting/press_fit_inkscape.md)
+* [Vinyl Cutter](week3_computer_controlled_cutting/vinyl.md)
 
 ### Week 4: Electronics Production
 
@@ -37,7 +38,7 @@
 * [PCB with a fiber laser cutter](week4_electronic_production/fiber_laser_pcb.md)
 * [Flexible_PCB_windows_english](week4_electronic_production/flexible_pcb_windows_mac.md)
 * [Fab Isp-Other models](week4_electronic_production/fabisp_models.md)
-* [ATtiny44 fuses](week4_electronic_production/attiny44_fuses/attiny44_fuses.html)
+* [ATtiny44 fuses]()
 
 
 ### Week 5: 3D scanning and printing
@@ -63,6 +64,10 @@
 * [Timing an AVR microcontroller](week8_embedded_programming/timing.md)
 
 ### Week 9: Machine Building
+
+* [Getting Started With Gestalt Nodes](week9_machine_building/gestalt_start.md)
+* [Gestalt IDE with Python](week9_machine_building/gestalt_ide.md)
+* [Machine/Gestalt Resources](week9_machine_building/machine_resources.md)
 
 ### Week 11: Input Devices
 
