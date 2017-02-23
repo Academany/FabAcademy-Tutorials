@@ -1,10 +1,26 @@
 # FabAcademy-Tutorials
-A living collection of tutorials to support Fab Academy
+A living collection of tutorials to support Fab Academy, hosted in the [Academany Github respository](https://github.com/Academany/FabAcademy-Tutorials).
 
-*Created by Fab Academy instructors around the world*  
+*Created by Fab Academy instructors/students around the world*  
 *Maintained by...*
 
-### Tutorials Guide
+### Tutorials Guide - How do I contribute?
+
+**01.** Create a [github](https://github.com/) account if you don't have already one.
+
+**02.** [FORK](https://help.github.com/articles/fork-a-repo/) the *academany tutorials repo* you can find it [HERE](https://github.com/Academany/FabAcademy-Tutorials)
+
+**03.** Write your tutorial using [markdown](https://en.wikipedia.org/wiki/Markdown). If it is your first time we have included a [TEMPLATE](template.md) and a [markdown_guide](markdown_guide.md) to help you. (Your can use your normal text editor like [Atom](https://atom.io/), [Sublime](http://www.sublimetext.com/), [Brackets](http://brackets.io/), [Notepad++](https://notepad-plus-plus.org/))
+
+**04.** Check at the bottom of the page to see the *GUIDE OF TUTORIAL DOCUMENTING*
+
+**05.** Once you are done.[Create a pull request](https://help.github.com/articles/creating-a-pull-request/) to have your tutorial/guide approved by the mighty instructors.
+
+**06.** Enjoy your tutorial in the [tutorials gitbook](http://docs.academany.org/FabAcademy-Tutorials/_book/)and [thanks](https://upload.wikimedia.org/wikipedia/commons/3/30/DcvfThank-you-1.jpg) for your contribution.
+
+
+**GUIDE OF TUTORIAL DOCUMENTING**
+
 
 * You will find a folder for each week/assignment tutorial.
 
@@ -26,4 +42,4 @@ A living collection of tutorials to support Fab Academy
 
 > Don't rely on a single tutorial. Check the the multiple tutorials and look for other resources.
 
-Changes will be made to this document thoughout Fab Academy, additions are always welcome but don't duplicate information, just update the tutorials.
+Changes will be made to this document thoughout Fab Academy, additions are always welcome but *don't duplicate information, just update the tutorials.*
