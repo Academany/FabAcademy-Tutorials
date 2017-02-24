@@ -92,3 +92,4 @@
 
 * [Fabbercise](bonus/fabbercise.md)
 * [Tips and Tricks to Passing Fab Academy](bonus/tips_tricks.md)
+* [Repository Visualisation](bonus/repo_visualisation.md)

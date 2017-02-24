@@ -2,7 +2,6 @@
 A living collection of tutorials to support Fab Academy, hosted in the [Academany Github respository](https://github.com/Academany/FabAcademy-Tutorials).
 
 *Created by Fab Academy instructors/students around the world*  
-*Maintained by...*
 
 ### Tutorials Guide - How do I contribute?
 
@@ -22,7 +21,7 @@ A living collection of tutorials to support Fab Academy, hosted in the [Academan
 **GUIDE OF TUTORIAL DOCUMENTING**
 
 
-* If you want to add a tutorial, go to the [github](https://github.com/Academany/FabAcademy-Tutorials) to add it and ask to merge. 
+* If you want to add a tutorial, go to the [github](https://github.com/Academany/FabAcademy-Tutorials) to add it and ask to merge.
 
 * You will find a folder for each week/assignment tutorial.
 
