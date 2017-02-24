@@ -1,7 +1,7 @@
 # Molding and Casting Tips / Using Fab Modules
 
 ## Short description from cutting your mold with a cnc to cast your design.
-![image](molding_fabmodules/1.jpg)
+![image](molding_fabmodules/all.jpg)
 
 **Summary**
 
@@ -14,7 +14,7 @@
 * Step 2: Mill the Wax on the Modella
   * Selecting the Appropiate Bit
   * Setting Up Wax for Milling
-  * Bit Diameters in MIlimeters
+  * Bit Diameters in Milimeters
   * General Fab Modules Workflow for Wax (General Setup / Steps)
   * Fab Modules Settings (Both Rough and Finishing Cuts)
   * Workflow for PNG to Modela
@@ -86,7 +86,7 @@ If you create a 3D file, you need to decide if you want to make a 1 or a 2 part 
 * [2D PART MOLD EXAMPLE](http://archive.fabacademy.org/archives/2016/fablabseoul/students/208/12.html)
 
 ### Step 2: Mill the Wax on the Modela
-#### Selecting The Appropate Bit
+#### Selecting The Appropiate Bit
 
 In the computer model / file you created, use a measuring tool (or estimate) the spacing between the parts or detail where you want the bit to pass through.
 
@@ -94,7 +94,8 @@ You need to make sure that the bit is small enough to cut out the detail in your
 Blue lines are the cutting parts and red "movements in the air"
 
 Also pay attention to the depth of your model:
-* Smaller diameter bits have shorter cutting depths and are easier to break.
+* Smaller diameter bits have shorter cutting depths.
+> They are easier to break.
 * Larger diameter bits (1/8") - standard size used in the fab modules - has a longer shank and can reach deeper into the wax.
 
 > For curvy models - use ballnose bits
@@ -190,8 +191,8 @@ Secure your wax to the Modela
     png 3d default
 
 * The top height setting tells the machine where to start milling the top of your file.
-        Since the blocks of wax have an uneven top surface, it is wise to start at least -1 mm below the surface, mabye more.
-        The top height value must be 0 or negative. A positive value will result in a error.
+
+* The top height value must be 0 or negative. A positive value will result in a error.
 
 * The bottom height setting is the how tall / deep you want your model to be. This must also be a negative number or you will get an error.
 
@@ -226,9 +227,14 @@ follow the steps above for the finishing pass.
 * The default settings will load for a rough cut with a 1/8" bit in millimeters. If you want to use a smaller sized bit, you can change this value. Make sure the value is in millimeters.
     **to path diameter**
 
-* Use the settings chart above to adjust the settings. The top height of the wax is uneven, so make the top height at least -1 mm or more to make sure the top of the wax is machined away. The bottom height should be the height of your STL model. When you are finished, click "close".
+* Use the settings chart above to adjust the settings.
 
-    Next - click "calculate" to generate the toolpath. You can have to wait,depending on your model to view the path in greater detail.
+ >If the top height of the wax is uneven, we recommend to machine 1 or 2mm of the surface to flatten the top.
+ ![image](molding_fabmodules/flat.jpg)
+
+ The bottom height should be the height of your STL model. When you are finished, click "close".
+
+* Next - click "calculate" to generate the toolpath. You can have to wait,depending on your model to view the path in greater detail.
 
 * Before cutting we need to do "X" and "Y" origin to setup the start point in our piece of wax.
 
@@ -236,7 +242,16 @@ follow the steps above for the finishing pass.
     >Click "calculate"
     And then send the job to the machine / Save the file and load with the machine control panel
 
-**Do not turn off the machine**
+**Rough Cut starting**
+![image](molding_fabmodules/rough.jpg)
+
+**Rough Cut finish**
+![image](molding_fabmodules/finish.jpg)
+
+#### *Do not turn off the machine*
+
+>If you have to many chips/dust we need to clean to avoid a tool breakage.So pause the machine, take all the dust out and resume.
+![image](molding_fabmodules/dust.jpg)
 
 * After the job completes,we create a finishing pass - select "finishing pass" from the dropdown.
 
@@ -246,26 +261,63 @@ follow the steps above for the finishing pass.
 
 >IF YOU CHANGED THE ENDMILL FOR A ROUND TYPE OR SMALLER ONE FOR THE FINISH CUT PASS YOU HAVE TO SETUP THE "Z" ORIGIN AGAIN.
 
+**Redoing the 'Z' origin with the round endmill (finish cut)**
+![image](molding_fabmodules/round.jpg)
+
 * Follow the steps above to set up and execute the finishing pass using the finishing pass settings.
 
 #### Milled Wax
+
+![image](molding_fabmodules/release.jpg)
+>The shinny looking is because the wax has already release silicone applied on it.
+
 ![image](molding_fabmodules/2.jpg)
 
 ### Step 3: Make a Mold from the Wax
+Is better to get everything ready before opening our containers:
 
-Mix silicone and pour into the wax mold - this will form a NEGATIVE mold with POSITIVE space
-Oomoo
+* Protect the table
+* Take a weight/containers to measure your mixture
+* Use gloves (recommended nitrile powder free ones, latex can produce allergy with extended use)
+* Mixer/containers
+* Release agent (in this case silicone spray)
+![image](molding_fabmodules/table.jpg)
 
-    Equal parts A&B by volume
-    Mix, mix, mix
-    Demold in 75 minutes
+>If you use spray silicone as release agent use mask to thon breath the vapors and wait 10 min after puring the mixture in to the mold
+
+
+Mix silicone and pour into the wax mold - this will form a NEGATIVE mold with POSITIVE space.
+* Really important to mix well the mixture and depends on the material vacuum degassing.
+
+
+Mixing the mixture with the help of a driller.
+![image](molding_fabmodules/mix.jpg)
+
+**Always check the MSDS and product specifications**
+* If you use Oomoo
+
+      Equal parts A&B by volume
+      Mix, mix, mix
+      Demold in 75 minutes
+
+* If you use Mold Star 16 fast
+      Equal parts A&B by volume
+      No vaccum degassing
+      Mix, mix, mix (max 5 min)
+      Demold in 30 minutes
 
 **ALWAYS READ THE INSTRUCTIONS AND THE [MSDS](https://us.vwr.com/store/search/searchMSDS.jsp?tabId=msdsSearch)** of your choosen material.
+
+Example of Molding in Mold Star 16 Fast
+
+![image](molding_fabmodules/rubber.jpg)
 
 Example of Molding in Urathane Rubber ([OOMOO](https://www.smooth-on.com/product-line/oomoo/) mold will be blue)
 
 ![image](molding_fabmodules/3.jpg)
 ![image](molding_fabmodules/4.jpg)
+
+>If you have problems to release the mold help you with the air compressed gun, by blowing on the perimeter of the rubber.
 
 ### Step 4: Cast Final Object
 
@@ -278,9 +330,12 @@ This example shows two different castable materials:
 
 * SmoothCast 305 - Plastic - read the instructions for the material (on the box)- use mold release if casting in urathane rubber, if using OOMOO, you do not need a mold release.
 
+>Depending of your material you will need to use release agent on the mold.
+
 
 #### Final Cast in SmoothCast 305 (white plastic)
 
+![image](molding_fabmodules/all.jpg)
 ![image](molding_fabmodules/5.jpg)
 
 #### Final Cast in Hydrostone
