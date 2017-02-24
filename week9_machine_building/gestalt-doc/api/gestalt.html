@@ -1,0 +1,1975 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>gestalt package &mdash; gestalt - documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="gestalt - documentation" href="../index.html"/>
+        <link rel="up" title="gestalt" href="modules.html"/>
+        <link rel="next" title="gestalt.Nodes package" href="gestalt.Nodes.html"/>
+        <link rel="prev" title="gestalt" href="modules.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="../index.html" class="icon icon-home"> gestalt
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">gestalt package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.Nodes.html">gestalt.Nodes package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-001a-module">gestalt.Nodes.086-001a module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-003a-module">gestalt.Nodes.086-003a module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-005a-boot-module">gestalt.Nodes.086-005a_boot module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-092-001b-module">gestalt.Nodes.092-001b module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynetworkednode-module">gestalt.Nodes.dummyNetworkedNode module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynode-module">gestalt.Nodes.dummyNode module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummysolonode-module">gestalt.Nodes.dummySoloNode module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.kuka">gestalt.Nodes.kuka module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.printrboard">gestalt.Nodes.printrboard module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.publish.html">gestalt.publish package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.publish.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish.publish">gestalt.publish.publish module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish.rpc">gestalt.publish.rpc module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.core">gestalt.core module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.functions">gestalt.functions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.interfaces">gestalt.interfaces module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.machines">gestalt.machines module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.nodes">gestalt.nodes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.packets">gestalt.packets module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestalt-setup-module">gestalt.setup module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#gestalt-testmachine-module">gestalt.testMachine module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.utilities">gestalt.utilities module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gestalt.Nodes.html">gestalt.Nodes package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-001a-module">gestalt.Nodes.086-001a module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-003a-module">gestalt.Nodes.086-003a module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-005a-boot-module">gestalt.Nodes.086-005a_boot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-092-001b-module">gestalt.Nodes.092-001b module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynetworkednode-module">gestalt.Nodes.dummyNetworkedNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynode-module">gestalt.Nodes.dummyNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummysolonode-module">gestalt.Nodes.dummySoloNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.kuka">gestalt.Nodes.kuka module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.printrboard">gestalt.Nodes.printrboard module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gestalt.publish.html">gestalt.publish package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.publish.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish.publish">gestalt.publish.publish module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish.rpc">gestalt.publish.rpc module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">gestalt</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">gestalt package</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#subpackages">Subpackages</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html">gestalt.Nodes package</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.publish.html">gestalt.publish package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gestalt.core">gestalt.core module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gestalt.functions">gestalt.functions module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gestalt.interfaces">gestalt.interfaces module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gestalt.machines">gestalt.machines module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gestalt.nodes">gestalt.nodes module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gestalt.packets">gestalt.packets module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestalt-setup-module">gestalt.setup module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gestalt-testmachine-module">gestalt.testMachine module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gestalt.utilities">gestalt.utilities module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#module-gestalt">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">gestalt</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="modules.html">gestalt</a> &raquo;</li>
+      
+    <li>gestalt package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/api/gestalt.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="gestalt-package">
+<h1>gestalt package<a class="headerlink" href="#gestalt-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="subpackages">
+<h2>Subpackages<a class="headerlink" href="#subpackages" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="gestalt.Nodes.html">gestalt.Nodes package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-001a-module">gestalt.Nodes.086-001a module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-003a-module">gestalt.Nodes.086-003a module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-005a-boot-module">gestalt.Nodes.086-005a_boot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-092-001b-module">gestalt.Nodes.092-001b module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynetworkednode-module">gestalt.Nodes.dummyNetworkedNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynode-module">gestalt.Nodes.dummyNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummysolonode-module">gestalt.Nodes.dummySoloNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.kuka">gestalt.Nodes.kuka module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.printrboard">gestalt.Nodes.printrboard module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gestalt.publish.html">gestalt.publish package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.publish.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish.publish">gestalt.publish.publish module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish.rpc">gestalt.publish.rpc module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.publish.html#module-gestalt.publish">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-gestalt.core">
+<span id="gestalt-core-module"></span><h2>gestalt.core module<a class="headerlink" href="#module-gestalt.core" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="gestalt.core.actionObject">
+<em class="property">class </em><code class="descclassname">gestalt.core.</code><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="gestalt.core.actionObject.channelAccess">
+<code class="descname">channelAccess</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.channelAccess" title="Permalink to this definition">¶</a></dt>
+<dd><p>The user method that gets called when the actionObject has been granted access to the channel.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.commit">
+<code class="descname">commit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Commits this actionObject to its interface&#8217;s priority queue</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.commitAndRelease">
+<code class="descname">commitAndRelease</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.commitAndRelease" title="Permalink to this definition">¶</a></dt>
+<dd><p>Commits this actionObject to its interface&#8217;s priority queue and releases for channel access.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.getPacket">
+<code class="descname">getPacket</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.getPacket" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a packet waiting in the packet holder.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.grantAccess">
+<code class="descname">grantAccess</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.grantAccess" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method gets called by the interface when this actionObject has been granted access to the channel.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method gets called when the action object is instantiated.</p>
+<p>It should be overridden by the user.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.isReleased">
+<code class="descname">isReleased</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.isReleased" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.new">
+<code class="descname">new</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.new" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will create a new instance of self, duplicating references created on instantiation.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.release">
+<code class="descname">release</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.release" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.setPacket">
+<code class="descname">setPacket</code><span class="sig-paren">(</span><em>packet</em>, <em>mode='unicast'</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.setPacket" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.transmit">
+<code class="descname">transmit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.transmit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sends a packet over the interface to the matching physical node.
+Note that this method will only be called within the interface channelAccess thread, which guarantees that the channel is avaliable.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.transmitPersistent">
+<code class="descname">transmitPersistent</code><span class="sig-paren">(</span><em>tries=10</em>, <em>timeout=0.2</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.transmitPersistent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transmit a packet until a response is received.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.waitForChannelAccess">
+<code class="descname">waitForChannelAccess</code><span class="sig-paren">(</span><em>timeout=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.waitForChannelAccess" title="Permalink to this definition">¶</a></dt>
+<dd><p>Can be called by the user init function if it needs to return a response.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionObject.waitForResponse">
+<code class="descname">waitForResponse</code><span class="sig-paren">(</span><em>timeout=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionObject.waitForResponse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.core.actionSequence">
+<em class="property">class </em><code class="descclassname">gestalt.core.</code><code class="descname">actionSequence</code><span class="sig-paren">(</span><em>actionObjects=None</em>, <em>parent=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionSequence" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Stores a series of action objects which should get executed sequentially.</p>
+<dl class="method">
+<dt id="gestalt.core.actionSequence.commit">
+<code class="descname">commit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionSequence.commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Commits all member actionObjects to their interface&#8217;s priority queue.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionSequence.release">
+<code class="descname">release</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionSequence.release" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.core.actionSet">
+<em class="property">class </em><code class="descclassname">gestalt.core.</code><code class="descname">actionSet</code><span class="sig-paren">(</span><em>actionObjects</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Stores a set of actionObjects which should be executed simultaneously.</p>
+<dl class="method">
+<dt id="gestalt.core.actionSet.commit">
+<code class="descname">commit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionSet.commit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionSet.isReleased">
+<code class="descname">isReleased</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionSet.isReleased" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.actionSet.release">
+<code class="descname">release</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.actionSet.release" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="gestalt.core.distributeFunctionCall">
+<code class="descclassname">gestalt.core.</code><code class="descname">distributeFunctionCall</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.distributeFunctionCall" title="Permalink to this definition">¶</a></dt>
+<dd><p>Distributes a function call to _attribute_ amongst the provided actionObjects.</p>
+<p>Any arg or kwarg provided as a tuple is distributed uniquely to the actionObjects. Otherwise the parameter
+is copied to all actionObjects.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="gestalt.core.functionCall">
+<code class="descclassname">gestalt.core.</code><code class="descname">functionCall</code><span class="sig-paren">(</span><em>callObject</em>, <em>attribute</em>, <em>args</em>, <em>kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.functionCall" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calls callObject.attribute(<a href="#id1"><span class="problematic" id="id2">*</span></a>args, <a href="#id3"><span class="problematic" id="id4">**</span></a>kwargs)</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.core.syncToken">
+<em class="property">class </em><code class="descclassname">gestalt.core.</code><code class="descname">syncToken</code><a class="headerlink" href="#gestalt.core.syncToken" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Contains tokens used by nodes to synchronize with each other.</p>
+<dl class="method">
+<dt id="gestalt.core.syncToken.pull">
+<code class="descname">pull</code><span class="sig-paren">(</span><em>tokenName</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.syncToken.pull" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.core.syncToken.push">
+<code class="descname">push</code><span class="sig-paren">(</span><em>tokenName</em>, <em>tokenValue</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.core.syncToken.push" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gestalt.functions">
+<span id="gestalt-functions-module"></span><h2>gestalt.functions module<a class="headerlink" href="#module-gestalt.functions" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="gestalt.functions.jog">
+<em class="property">class </em><code class="descclassname">gestalt.functions.</code><code class="descname">jog</code><span class="sig-paren">(</span><em>move</em>, <em>defaultJogSpeed=20</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.jog" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.functions.move">
+<em class="property">class </em><code class="descclassname">gestalt.functions.</code><code class="descname">move</code><span class="sig-paren">(</span><em>virtualMachine=None</em>, <em>virtualNode=None</em>, <em>axes=None</em>, <em>kinematics=None</em>, <em>machinePosition=None</em>, <em>defaultAcceleration=2000.0</em>, <em>pullInSpeed=4000</em>, <em>planner=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="class">
+<dt id="gestalt.functions.move.motionPlanner">
+<em class="property">class </em><code class="descname">motionPlanner</code><span class="sig-paren">(</span><em>move</em>, <em>queueSize=50</em>, <em>queueTimeout=0.1</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></code></p>
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.addMove">
+<code class="descname">addMove</code><span class="sig-paren">(</span><em>newMoveObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.addMove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a new move to the motion planner queue.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="gestalt.functions.move.motionPlanner.distanceFromVelocities">
+<em class="property">static </em><code class="descname">distanceFromVelocities</code><span class="sig-paren">(</span><em>finalVelocity</em>, <em>initialVelocity</em>, <em>acceleration</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.distanceFromVelocities" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.flushPlanner">
+<code class="descname">flushPlanner</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.flushPlanner" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.forwardPass">
+<code class="descname">forwardPass</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.forwardPass" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.generateJunctionVelocity">
+<code class="descname">generateJunctionVelocity</code><span class="sig-paren">(</span><em>entryMoveObject</em>, <em>exitMoveObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.generateJunctionVelocity" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates the maximum junction velocity based on the pull in velocity limit and the directions of the entry and exit vectors.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.getMoveObject">
+<code class="descname">getMoveObject</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.getMoveObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will attempt to retrieve a new move object from the planner queue.</p>
+</dd></dl>
+
+<dl class="staticmethod">
+<dt id="gestalt.functions.move.motionPlanner.intersectionPoint">
+<em class="property">static </em><code class="descname">intersectionPoint</code><span class="sig-paren">(</span><em>initialVelocity</em>, <em>finalVelocity</em>, <em>acceleration</em>, <em>seperationDistance</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.intersectionPoint" title="Permalink to this definition">¶</a></dt>
+<dd><p>This calculates the intersection point of two acceleration curves. The first
+starts at initial velocity and increases with acceleration, and the second
+starts at final velocity and increases with acceleration. The starting
+points are seperated by seperationDistance, and the return value is
+the distance of the intersection point from the final velocity position.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.normalizeVector">
+<code class="descname">normalizeVector</code><span class="sig-paren">(</span><em>inputVector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.normalizeVector" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.processMoves">
+<code class="descname">processMoves</code><span class="sig-paren">(</span><em>newMoveObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.processMoves" title="Permalink to this definition">¶</a></dt>
+<dd><p>Performs multi-block look-ahead algorithm.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.release">
+<code class="descname">release</code><span class="sig-paren">(</span><em>segment</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.release" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.resetMachineState">
+<code class="descname">resetMachineState</code><span class="sig-paren">(</span><em>velocity=0.0</em>, <em>acceleration=0.0</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.resetMachineState" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.reversePass">
+<code class="descname">reversePass</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.reversePass" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.motionPlanner.updateAndRelease">
+<code class="descname">updateAndRelease</code><span class="sig-paren">(</span><em>segment</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.updateAndRelease" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="staticmethod">
+<dt id="gestalt.functions.move.motionPlanner.velocityFromDistance">
+<em class="property">static </em><code class="descname">velocityFromDistance</code><span class="sig-paren">(</span><em>distance</em>, <em>initialVelocity</em>, <em>acceleration</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.motionPlanner.velocityFromDistance" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.functions.move.nullMotionPlanner">
+<em class="property">class </em><code class="descclassname">move.</code><code class="descname">nullMotionPlanner</code><span class="sig-paren">(</span><em>move</em>, <em>queueSize=50</em>, <em>queueTimeout=0.1</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.nullMotionPlanner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></code></p>
+<dl class="method">
+<dt id="gestalt.functions.move.nullMotionPlanner.addMove">
+<code class="descname">addMove</code><span class="sig-paren">(</span><em>newMoveObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.nullMotionPlanner.addMove" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds a new move to the motion planner queue.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.nullMotionPlanner.flushPlanner">
+<code class="descname">flushPlanner</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.nullMotionPlanner.flushPlanner" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.nullMotionPlanner.getMoveObject">
+<code class="descname">getMoveObject</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.nullMotionPlanner.getMoveObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Will attempt to retrieve a new move object from the planner queue.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.nullMotionPlanner.processMoves">
+<code class="descname">processMoves</code><span class="sig-paren">(</span><em>newMoveObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.nullMotionPlanner.processMoves" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.nullMotionPlanner.release">
+<code class="descname">release</code><span class="sig-paren">(</span><em>segment</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.nullMotionPlanner.release" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.nullMotionPlanner.resetMachineState">
+<code class="descname">resetMachineState</code><span class="sig-paren">(</span><em>velocity=0.0</em>, <em>acceleration=0.0</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.nullMotionPlanner.resetMachineState" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.move.nullMotionPlanner.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.move.nullMotionPlanner.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.functions.moveObject">
+<em class="property">class </em><code class="descclassname">gestalt.functions.</code><code class="descname">moveObject</code><span class="sig-paren">(</span><em>move</em>, <em>position=None</em>, <em>velocity=None</em>, <em>acceleration=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.moveObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="gestalt.functions.moveObject.commit">
+<code class="descname">commit</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.moveObject.commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds this move to the motion planner.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.moveObject.release">
+<code class="descname">release</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.moveObject.release" title="Permalink to this definition">¶</a></dt>
+<dd><p>Releases all constituent spin objects to the real machine, making them no longer modifiable.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.moveObject.update">
+<code class="descname">update</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.moveObject.update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates all action objects with new parameters.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.functions.serviceRoutine">
+<em class="property">class </em><code class="descclassname">gestalt.functions.</code><code class="descname">serviceRoutine</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.serviceRoutine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>A function which spawns an action item that will eventually be executed on the network.</p>
+<p>The expected pattern is as follows:
+1) A call to serviceRoutine causes an actionObject to be created.
+2) This actionObject eventually gets access to the network.
+3) actionObject transmits a packet to its physical counterpart.
+4) When a response arrives, it is routed by the virtual node to the response serviceRoutine.
+5) Response service routine calls its receive method.
+6) Receive method might update machine state, etc.
+7) Receive method sets the responseFlag, signaling to the actionObject that a response has arrived.
+8) actionObject reacts to message, either by returning something to the calling method, transmitting another packet, etc...</p>
+<p>Note that because only action object has access to the network at a time, it will block in the channelAccessQueue until a response is received.
+However because serviceRoutine is running in the interface receiver routing queue, it can asynchronously update the machine state.</p>
+<dl class="method">
+<dt id="gestalt.functions.serviceRoutine.receive">
+<code class="descname">receive</code><span class="sig-paren">(</span><em>packet</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.serviceRoutine.receive" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.functions.serviceRoutine.receiver">
+<code class="descname">receiver</code><span class="sig-paren">(</span><em>packet</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.functions.serviceRoutine.receiver" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gestalt.interfaces">
+<span id="gestalt-interfaces-module"></span><h2>gestalt.interfaces module<a class="headerlink" href="#module-gestalt.interfaces" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="gestalt.interfaces.CRC">
+<em class="property">class </em><code class="descclassname">gestalt.interfaces.</code><code class="descname">CRC</code><a class="headerlink" href="#gestalt.interfaces.CRC" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generates CRC bytes and checks CRC validated packets.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.CRC.calculateByteCRC">
+<code class="descname">calculateByteCRC</code><span class="sig-paren">(</span><em>byteValue</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.CRC.calculateByteCRC" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates Bytes in the CRC Table.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.CRC.crcTableGen">
+<code class="descname">crcTableGen</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.CRC.crcTableGen" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generates a CRC table to make CRC generation faster.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.CRC.validate">
+<code class="descname">validate</code><span class="sig-paren">(</span><em>packet</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.CRC.validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks CRC byte against packet.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.baseInterface">
+<em class="property">class </em><code class="descclassname">gestalt.interfaces.</code><code class="descname">baseInterface</code><a class="headerlink" href="#gestalt.interfaces.baseInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>This base class could eventually provide a common foundation for all interfaces</p>
+<dl class="method">
+<dt id="gestalt.interfaces.baseInterface.initAfterSet">
+<code class="descname">initAfterSet</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.baseInterface.initAfterSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>This method gets called when an interface is set into an interface shell.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.devInterface">
+<em class="property">class </em><code class="descclassname">gestalt.interfaces.</code><code class="descname">devInterface</code><a class="headerlink" href="#gestalt.interfaces.devInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.interfaces.baseInterface" title="gestalt.interfaces.baseInterface"><code class="xref py py-class docutils literal"><span class="pre">gestalt.interfaces.baseInterface</span></code></a></p>
+<p>Base class for interfaces mounted in the /dev/ folder.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.devInterface.deviceScan">
+<code class="descname">deviceScan</code><span class="sig-paren">(</span><em>searchTerm</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.devInterface.deviceScan" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns available ports that match the search term</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.devInterface.getSearchTerms">
+<code class="descname">getSearchTerms</code><span class="sig-paren">(</span><em>interfaceType</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.devInterface.getSearchTerms" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns the likely prefix for a serial port based on the operating system and device type</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.devInterface.waitForNewPort">
+<code class="descname">waitForNewPort</code><span class="sig-paren">(</span><em>searchTerms=''</em>, <em>timeout=10</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.devInterface.waitForNewPort" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scans for a new port to appear in /dev/ and returns the name of the port.</p>
+<p>Search terms is a list that can contain several terms. For now only implemented for one term.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.gestaltInterface">
+<em class="property">class </em><code class="descclassname">gestalt.interfaces.</code><code class="descname">gestaltInterface</code><span class="sig-paren">(</span><em>name=None</em>, <em>interface=None</em>, <em>owner=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.interfaces.baseInterface" title="gestalt.interfaces.baseInterface"><code class="xref py py-class docutils literal"><span class="pre">gestalt.interfaces.baseInterface</span></code></a></p>
+<p>Interface to Gestalt nodes based on the Gestalt protocol.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.assignNode">
+<code class="descname">assignNode</code><span class="sig-paren">(</span><em>node</em>, <em>address</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.assignNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Assigns a given node to the interface on a particular address.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.gestaltInterface.channelAccessThread">
+<em class="property">class </em><code class="descname">channelAccessThread</code><span class="sig-paren">(</span><em>interface</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelAccessThread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></code></p>
+<p>Controls when action objects have access to the interface.</p>
+<p>channelAccessQueue contains a serialized list of actionObjects which have been cleared for transmission and
+are waiting for access to the channel.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.channelAccessThread.getActionObject">
+<code class="descname">getActionObject</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelAccessThread.getActionObject" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.channelAccessThread.putActionObject">
+<code class="descname">putActionObject</code><span class="sig-paren">(</span><em>actionObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelAccessThread.putActionObject" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.channelAccessThread.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelAccessThread.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.gestaltInterface.channelPriorityThread">
+<em class="property">class </em><code class="descclassname">gestaltInterface.</code><code class="descname">channelPriorityThread</code><span class="sig-paren">(</span><em>interface</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelPriorityThread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></code></p>
+<p>Releases actionObjects to the channelAccessQueue, and when necessary first serializes actionSets into a series of action objects.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.channelPriorityThread.getActionObject">
+<code class="descname">getActionObject</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelPriorityThread.getActionObject" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.channelPriorityThread.putActionObject">
+<code class="descname">putActionObject</code><span class="sig-paren">(</span><em>actionObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelPriorityThread.putActionObject" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.channelPriorityThread.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelPriorityThread.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.channelPriorityThread.serialize">
+<code class="descname">serialize</code><span class="sig-paren">(</span><em>actionObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.channelPriorityThread.serialize" title="Permalink to this definition">¶</a></dt>
+<dd><p>serializes actionSets into actionObjects.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.commit">
+<code class="descclassname">gestaltInterface.</code><code class="descname">commit</code><span class="sig-paren">(</span><em>actionObject</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Puts actionObjects or actionSets into the channelPriority queue.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.gestaltInterface.nodeManager">
+<em class="property">class </em><code class="descclassname">gestaltInterface.</code><code class="descname">nodeManager</code><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.nodeManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Manages all nodes under the control of this interface.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.nodeManager.getIP">
+<code class="descname">getIP</code><span class="sig-paren">(</span><em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.nodeManager.getIP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns IP address for a given node.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.nodeManager.getNode">
+<code class="descname">getNode</code><span class="sig-paren">(</span><em>IP</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.nodeManager.getNode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.nodeManager.updateNodesAddresses">
+<code class="descname">updateNodesAddresses</code><span class="sig-paren">(</span><em>node</em>, <em>address</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.nodeManager.updateNodesAddresses" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.gestaltInterface.packetRouterThread">
+<em class="property">class </em><code class="descclassname">gestaltInterface.</code><code class="descname">packetRouterThread</code><span class="sig-paren">(</span><em>interface</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.packetRouterThread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></code></p>
+<p>Routes packets to their matching service routines, and executes the service routine within this thread.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.packetRouterThread.getRouterPacket">
+<code class="descname">getRouterPacket</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.packetRouterThread.getRouterPacket" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.packetRouterThread.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.packetRouterThread.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.gestaltInterface.receiveThread">
+<em class="property">class </em><code class="descclassname">gestaltInterface.</code><code class="descname">receiveThread</code><span class="sig-paren">(</span><em>interface</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.receiveThread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></code></p>
+<p>Gets packets from the network interface, interpreting them, and pushing them to the router queue.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.receiveThread.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.receiveThread.run" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.startInterfaceThreads">
+<code class="descclassname">gestaltInterface.</code><code class="descname">startInterfaceThreads</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.startInterfaceThreads" title="Permalink to this definition">¶</a></dt>
+<dd><p>Initiates the receiver thread.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.transmit">
+<code class="descclassname">gestaltInterface.</code><code class="descname">transmit</code><span class="sig-paren">(</span><em>virtualNode</em>, <em>port</em>, <em>packetSet</em>, <em>mode</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.transmit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Transmits a packet set over the interface immediately.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.gestaltInterface.validateIP">
+<code class="descclassname">gestaltInterface.</code><code class="descname">validateIP</code><span class="sig-paren">(</span><em>IP</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.gestaltInterface.validateIP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Makes sure that an IP address isn&#8217;t already in use on the interface.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.interfaceShell">
+<em class="property">class </em><code class="descclassname">gestalt.interfaces.</code><code class="descname">interfaceShell</code><span class="sig-paren">(</span><em>Interface=None</em>, <em>owner=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.interfaceShell" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Allows both the node and shell node to access the interface by acting as an intermediary.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.interfaceShell.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>Interface</em>, <em>owner=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.interfaceShell.set" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates the interface contained by the shell</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.interfaceShell.setOwner">
+<code class="descname">setOwner</code><span class="sig-paren">(</span><em>owner</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.interfaceShell.setOwner" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates the owner of the interface contained by the shell</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.serialInterface">
+<em class="property">class </em><code class="descclassname">gestalt.interfaces.</code><code class="descname">serialInterface</code><span class="sig-paren">(</span><em>baudRate</em>, <em>portName=None</em>, <em>interfaceType=None</em>, <em>owner=None</em>, <em>timeOut=0.2</em>, <em>flowControl=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.interfaces.devInterface" title="gestalt.interfaces.devInterface"><code class="xref py py-class docutils literal"><span class="pre">gestalt.interfaces.devInterface</span></code></a></p>
+<p>Provides an interface to nodes connected thru a serial port on the host machine.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.acquirePort">
+<code class="descname">acquirePort</code><span class="sig-paren">(</span><em>interfaceType=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.acquirePort" title="Permalink to this definition">¶</a></dt>
+<dd><p>Discovers and connects to a port by waiting for a new device to be plugged in.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.connect">
+<code class="descname">connect</code><span class="sig-paren">(</span><em>portName=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.connect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Locates port for interface on host machine.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.connectToPort">
+<code class="descname">connectToPort</code><span class="sig-paren">(</span><em>portName</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.connectToPort" title="Permalink to this definition">¶</a></dt>
+<dd><p>Actually connects the interface to the port</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.disconnect">
+<code class="descname">disconnect</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.disconnect" title="Permalink to this definition">¶</a></dt>
+<dd><p>Disconnects from serial port.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.flushInput">
+<code class="descname">flushInput</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.flushInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>Flushes the input buffer.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.getAvailablePorts">
+<code class="descname">getAvailablePorts</code><span class="sig-paren">(</span><em>ports</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.getAvailablePorts" title="Permalink to this definition">¶</a></dt>
+<dd><p>tests all provided ports and returns a subset of ports that are available</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.initAfterSet">
+<code class="descname">initAfterSet</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.initAfterSet" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.receive">
+<code class="descname">receive</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.receive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Grabs one byte from the serial port.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.setDTR">
+<code class="descname">setDTR</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.setDTR" title="Permalink to this definition">¶</a></dt>
+<dd><p>Used to reset the Arduino hardware.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.setTimeout">
+<code class="descname">setTimeout</code><span class="sig-paren">(</span><em>timeout</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.setTimeout" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sets timeout for receiving on port.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.startTransmitter">
+<code class="descname">startTransmitter</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.startTransmitter" title="Permalink to this definition">¶</a></dt>
+<dd><p>Starts the transmit thread.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.transmit">
+<code class="descname">transmit</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.transmit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sends request for data to be transmitted over the serial port. Format is as a list.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.serialInterface.transmitThread">
+<em class="property">class </em><code class="descname">transmitThread</code><span class="sig-paren">(</span><em>transmitQueue</em>, <em>port</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.transmitThread" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">threading.Thread</span></code></p>
+<p>Handles transmitting data over the serial port.</p>
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.transmitThread.getTransmitPacket">
+<code class="descname">getTransmitPacket</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.transmitThread.getTransmitPacket" title="Permalink to this definition">¶</a></dt>
+<dd><p>Tries to fetch a packet from the transmit queue.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.serialInterface.transmitThread.run">
+<code class="descname">run</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialInterface.transmitThread.run" title="Permalink to this definition">¶</a></dt>
+<dd><p>Code run by the transmit thread.</p>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="gestalt.interfaces.serialize">
+<code class="descclassname">gestalt.interfaces.</code><code class="descname">serialize</code><span class="sig-paren">(</span><em>packet</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.serialize" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts packet into a string for transmission over a serial port.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.socketInterface">
+<em class="property">class </em><code class="descclassname">gestalt.interfaces.</code><code class="descname">socketInterface</code><span class="sig-paren">(</span><em>IPAddress=''</em>, <em>IPPort=27272</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.socketInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.interfaces.baseInterface" title="gestalt.interfaces.baseInterface"><code class="xref py py-class docutils literal"><span class="pre">gestalt.interfaces.baseInterface</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.interfaces.socketUDPServer">
+<em class="property">class </em><code class="descclassname">gestalt.interfaces.</code><code class="descname">socketUDPServer</code><span class="sig-paren">(</span><em>IPAddress=''</em>, <em>IPPort=27272</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.socketUDPServer" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.interfaces.socketInterface" title="gestalt.interfaces.socketInterface"><code class="xref py py-class docutils literal"><span class="pre">gestalt.interfaces.socketInterface</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.interfaces.socketUDPServer.initAfterSet">
+<code class="descname">initAfterSet</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.socketUDPServer.initAfterSet" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.socketUDPServer.receive">
+<code class="descname">receive</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.socketUDPServer.receive" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.interfaces.socketUDPServer.transmit">
+<code class="descname">transmit</code><span class="sig-paren">(</span><em>remoteIPAddress</em>, <em>remoteIPPort</em>, <em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.interfaces.socketUDPServer.transmit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gestalt.machines">
+<span id="gestalt-machines-module"></span><h2>gestalt.machines module<a class="headerlink" href="#module-gestalt.machines" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="gestalt.machines.coordinates">
+<em class="property">class </em><code class="descclassname">gestalt.machines.</code><code class="descname">coordinates</code><a class="headerlink" href="#gestalt.machines.coordinates" title="Permalink to this definition">¶</a></dt>
+<dd><p>Components pertinent to storing and manipulating position information.</p>
+<dl class="class">
+<dt id="gestalt.machines.coordinates.baseCoordinate">
+<em class="property">class </em><code class="descname">baseCoordinate</code><span class="sig-paren">(</span><em>inputList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.coordinates.baseCoordinate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>A set of ordinates which can be used to define positions of various machine elements.</p>
+<dl class="method">
+<dt id="gestalt.machines.coordinates.baseCoordinate.get">
+<code class="descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.coordinates.baseCoordinate.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.coordinates.baseCoordinate.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>valueArray</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.coordinates.baseCoordinate.set" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.coordinates.uFloat">
+<em class="property">class </em><code class="descclassname">coordinates.</code><code class="descname">uFloat</code><span class="sig-paren">(</span><em>value</em>, <em>units=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.coordinates.uFloat" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">float</span></code></p>
+<p>A floating-point number which also has units.</p>
+<dl class="method">
+<dt id="gestalt.machines.coordinates.uFloat.convertUnits">
+<code class="descname">convertUnits</code><span class="sig-paren">(</span><em>targetUnits</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.coordinates.uFloat.convertUnits" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.coordinates.uFloatSubtract">
+<code class="descclassname">coordinates.</code><code class="descname">uFloatSubtract</code><span class="sig-paren">(</span><em>term1</em>, <em>term2</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.coordinates.uFloatSubtract" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns a list containing term1 - term2 with units.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.elements">
+<em class="property">class </em><code class="descclassname">gestalt.machines.</code><code class="descname">elements</code><a class="headerlink" href="#gestalt.machines.elements" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="class">
+<dt id="gestalt.machines.elements.element">
+<em class="property">class </em><code class="descname">element</code><a class="headerlink" href="#gestalt.machines.elements.element" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Base class for mechanical elements.
+In essence, elements scale and/or convert between units.</p>
+<dl class="classmethod">
+<dt id="gestalt.machines.elements.element.forward">
+<em class="property">classmethod </em><code class="descname">forward</code><span class="sig-paren">(</span><em>thisClass</em>, <em>inputParameter</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.element.forward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.elements.element.init">
+<code class="descname">init</code><span class="sig-paren">(</span><em>inputUnits=None</em>, <em>outputUnits=None</em>, <em>transformation=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.element.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="classmethod">
+<dt id="gestalt.machines.elements.element.reverse">
+<em class="property">classmethod </em><code class="descname">reverse</code><span class="sig-paren">(</span><em>thisClass</em>, <em>inputParameter</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.element.reverse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.elements.element.transformForward">
+<code class="descname">transformForward</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.element.transformForward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.elements.element.transformReverse">
+<code class="descname">transformReverse</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.element.transformReverse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.elements.elementChain">
+<em class="property">class </em><code class="descclassname">elements.</code><code class="descname">elementChain</code><span class="sig-paren">(</span><em>elements</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.elementChain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.element</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.elements.invert">
+<em class="property">class </em><code class="descclassname">elements.</code><code class="descname">invert</code><span class="sig-paren">(</span><em>invert=False</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.invert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.element</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.elements.leadscrew">
+<em class="property">class </em><code class="descclassname">elements.</code><code class="descname">leadscrew</code><span class="sig-paren">(</span><em>lead</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.leadscrew" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.element</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.elements.microstep">
+<em class="property">class </em><code class="descclassname">elements.</code><code class="descname">microstep</code><span class="sig-paren">(</span><em>microstepCount</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.microstep" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.element</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.elements.pulley">
+<em class="property">class </em><code class="descclassname">elements.</code><code class="descname">pulley</code><span class="sig-paren">(</span><em>pitchDiameter</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.pulley" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.element</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.elements.stepper">
+<em class="property">class </em><code class="descclassname">elements.</code><code class="descname">stepper</code><span class="sig-paren">(</span><em>stepAngle</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.elements.stepper" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.element</span></code></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics">
+<em class="property">class </em><code class="descclassname">gestalt.machines.</code><code class="descname">kinematics</code><a class="headerlink" href="#gestalt.machines.kinematics" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="class">
+<dt id="gestalt.machines.kinematics.chain">
+<em class="property">class </em><code class="descname">chain</code><span class="sig-paren">(</span><em>forwardChain</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.chain" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.transform</span></code></p>
+<p>Allows a series of kinematics to be chained together.</p>
+<dl class="method">
+<dt id="gestalt.machines.kinematics.chain.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>inputVector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.chain.forward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.kinematics.chain.reverse">
+<code class="descname">reverse</code><span class="sig-paren">(</span><em>inputVector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.chain.reverse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.compound">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">compound</code><span class="sig-paren">(</span><em>inputTransforms</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.compound" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.transform</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.compoundMatrix">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">compoundMatrix</code><span class="sig-paren">(</span><em>inputMatrices</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.compoundMatrix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.matrix</span></code></p>
+<p>A matrix which is composed of several matrices arranged along the diagonal.</p>
+<dl class="method">
+<dt id="gestalt.machines.kinematics.compoundMatrix.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>inputVector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.compoundMatrix.transform" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.direct">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">direct</code><span class="sig-paren">(</span><em>order</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.direct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.transform</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.hbot">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">hbot</code><span class="sig-paren">(</span><em>invertX=False</em>, <em>invertY=False</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.hbot" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.transform</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.identityMatrix">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">identityMatrix</code><span class="sig-paren">(</span><em>order</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.identityMatrix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.matrix</span></code></p>
+<p>A square matrix of size = order with 1&#8217;s on the diagonal and zeros elsewhere.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.matrix">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">matrix</code><span class="sig-paren">(</span><em>array</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.matrix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>A base class for defining transformation matrices.</p>
+<dl class="method">
+<dt id="gestalt.machines.kinematics.matrix.dot">
+<code class="descname">dot</code><span class="sig-paren">(</span><em>array1</em>, <em>array2</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.matrix.dot" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.kinematics.matrix.transform">
+<code class="descname">transform</code><span class="sig-paren">(</span><em>inputVector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.matrix.transform" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.route">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">route</code><span class="sig-paren">(</span><em>routingList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.route" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.transform</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.routeForwardMatrix">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">routeForwardMatrix</code><span class="sig-paren">(</span><em>routingList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.routeForwardMatrix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.matrix</span></code></p>
+<p>A square matrix which routes according to the provided routing list.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.routeReverseMatrix">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">routeReverseMatrix</code><span class="sig-paren">(</span><em>routingList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.routeReverseMatrix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">gestalt.machines.matrix</span></code></p>
+<p>A square matrix which routes according to the inverse of the provided routing list.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.kinematics.transform">
+<em class="property">class </em><code class="descclassname">kinematics.</code><code class="descname">transform</code><span class="sig-paren">(</span><em>forwardMatrix</em>, <em>reverseMatrix</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Contains methods for transforming in the forwards and reverse directions.</p>
+<dl class="method">
+<dt id="gestalt.machines.kinematics.transform.forward">
+<code class="descname">forward</code><span class="sig-paren">(</span><em>inputVector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.transform.forward" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.kinematics.transform.reverse">
+<code class="descname">reverse</code><span class="sig-paren">(</span><em>inputVector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.kinematics.transform.reverse" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.state">
+<em class="property">class </em><code class="descclassname">gestalt.machines.</code><code class="descname">state</code><a class="headerlink" href="#gestalt.machines.state" title="Permalink to this definition">¶</a></dt>
+<dd><p>Elements which help keep track of machine state.</p>
+<dl class="class">
+<dt id="gestalt.machines.state.coordinate">
+<em class="property">class </em><code class="descname">coordinate</code><span class="sig-paren">(</span><em>inputList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.state.coordinate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>A collection of coordinates which stores both actual (real-time) and future (buffered) machine positions.</p>
+<dl class="method">
+<dt id="gestalt.machines.state.coordinate.commit">
+<code class="descname">commit</code><span class="sig-paren">(</span><em>inputList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.state.coordinate.commit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates most recent change to machine position used for calculating future moves.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.state.coordinate.update">
+<code class="descname">update</code><span class="sig-paren">(</span><em>inputList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.state.coordinate.update" title="Permalink to this definition">¶</a></dt>
+<dd><p>Updates last known real-time coordinate of machine.</p>
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.machines.virtualMachine">
+<em class="property">class </em><code class="descclassname">gestalt.machines.</code><code class="descname">virtualMachine</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>The base class for all virtual machines.</p>
+<p>While many machines won&#8217;t need the pre-built initializers which get called, they
+are provided to introduce some structure to the format of user virtual machines.</p>
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.disablePublishing">
+<code class="descname">disablePublishing</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.disablePublishing" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.enablePublishing">
+<code class="descname">enablePublishing</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.enablePublishing" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.init">
+<code class="descname">init</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.initController">
+<code class="descname">initController</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.initController" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.initCoordinates">
+<code class="descname">initCoordinates</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.initCoordinates" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.initFunctions">
+<code class="descname">initFunctions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.initFunctions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.initInterfaces">
+<code class="descname">initInterfaces</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.initInterfaces" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.initKinematics">
+<code class="descname">initKinematics</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.initKinematics" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.initLast">
+<code class="descname">initLast</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.initLast" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.initPublish">
+<code class="descname">initPublish</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.initPublish" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.machines.virtualMachine.publish">
+<code class="descname">publish</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.machines.virtualMachine.publish" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gestalt.nodes">
+<span id="gestalt-nodes-module"></span><h2>gestalt.nodes module<a class="headerlink" href="#module-gestalt.nodes" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="gestalt.nodes.baseGestaltNode">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">baseGestaltNode</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.nodes.baseVirtualNode" title="gestalt.nodes.baseVirtualNode"><code class="xref py py-class docutils literal"><span class="pre">gestalt.nodes.baseVirtualNode</span></code></a></p>
+<p>base class for all gestalt nodes</p>
+<dl class="class">
+<dt id="gestalt.nodes.baseGestaltNode.bindPort">
+<em class="property">class </em><code class="descname">bindPort</code><span class="sig-paren">(</span><em>virtualNode</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode.bindPort" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseGestaltNode.initFunctions">
+<code class="descclassname">baseGestaltNode.</code><code class="descname">initFunctions</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode.initFunctions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseGestaltNode.initLast">
+<code class="descclassname">baseGestaltNode.</code><code class="descname">initLast</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode.initLast" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseGestaltNode.initPackets">
+<code class="descclassname">baseGestaltNode.</code><code class="descname">initPackets</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode.initPackets" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseGestaltNode.initParameters">
+<code class="descclassname">baseGestaltNode.</code><code class="descname">initParameters</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode.initParameters" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseGestaltNode.initPorts">
+<code class="descclassname">baseGestaltNode.</code><code class="descname">initPorts</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode.initPorts" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseGestaltNode.route">
+<code class="descclassname">baseGestaltNode.</code><code class="descname">route</code><span class="sig-paren">(</span><em>port</em>, <em>packet=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode.route" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseGestaltNode.transmit">
+<code class="descclassname">baseGestaltNode.</code><code class="descname">transmit</code><span class="sig-paren">(</span><em>nodeSet</em>, <em>mode='unicast'</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseGestaltNode.transmit" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseNodeShell">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">baseNodeShell</code><a class="headerlink" href="#gestalt.nodes.baseNodeShell" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>The basic container for all nodes.</p>
+<p>Like a room in a hotel, that has different occupants and offers certain amenities to its guests.
+baseNodeShell gets subclassed by more specific shells for one of the four types of gestalt nodes:
+-&gt;Solo/Independent: arbitrary interface/ arbitrary protocol
+-&gt;Solo/Gestalt: arbitrary interface/ gestalt protocol
+-&gt;Networked/Gestalt: networked gestalt interface/ gestalt protocol
+-&gt;Managed/Gestalt: hardware synchronized gestalt network/ gestalt protocol</p>
+<dl class="method">
+<dt id="gestalt.nodes.baseNodeShell.acquire">
+<code class="descname">acquire</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseNodeShell.acquire" title="Permalink to this definition">¶</a></dt>
+<dd><p>gets the identifier for either the interface or the node</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseNodeShell.hasNode">
+<code class="descname">hasNode</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseNodeShell.hasNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks if shell contains a node.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseNodeShell.loadNodeFromFile">
+<code class="descname">loadNodeFromFile</code><span class="sig-paren">(</span><em>filename</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseNodeShell.loadNodeFromFile" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads a node into the node shell from a provided filename.</p>
+<p>Assumes that this is called from a node shell that has defined self.name</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseNodeShell.loadNodeFromModule">
+<code class="descname">loadNodeFromModule</code><span class="sig-paren">(</span><em>module</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseNodeShell.loadNodeFromModule" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads a node into the node shell from the provided class.</p>
+<p>Note that class itself should be provided, NOT a class instance.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseNodeShell.loadNodeFromURL">
+<code class="descname">loadNodeFromURL</code><span class="sig-paren">(</span><em>URL</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseNodeShell.loadNodeFromURL" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads a node into the node shell from a provided URL.</p>
+<p>Assumes that this is called form a node shell that has defined self.name</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseNodeShell.setNode">
+<code class="descname">setNode</code><span class="sig-paren">(</span><em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseNodeShell.setNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>sets the node</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseSoloIndependentNode">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">baseSoloIndependentNode</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseSoloIndependentNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.nodes.baseVirtualNode" title="gestalt.nodes.baseVirtualNode"><code class="xref py py-class docutils literal"><span class="pre">gestalt.nodes.baseVirtualNode</span></code></a></p>
+<p>base class for solo/independent virtual nodes</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">baseStandardGestaltNode</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.nodes.baseGestaltNode" title="gestalt.nodes.baseGestaltNode"><code class="xref py py-class docutils literal"><span class="pre">gestalt.nodes.baseGestaltNode</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootCommandRequest">
+<em class="property">class </em><code class="descname">bootCommandRequest</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootCommandRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.functions.serviceRoutine" title="gestalt.functions.serviceRoutine"><code class="xref py py-class docutils literal"><span class="pre">gestalt.functions.serviceRoutine</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootCommandRequest.actionObject">
+<em class="property">class </em><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootCommandRequest.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.core.actionObject" title="gestalt.core.actionObject"><code class="xref py py-class docutils literal"><span class="pre">gestalt.core.actionObject</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootCommandRequest.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><em>command</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootCommandRequest.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootReadRequest">
+<em class="property">class </em><code class="descclassname">baseStandardGestaltNode.</code><code class="descname">bootReadRequest</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootReadRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.functions.serviceRoutine" title="gestalt.functions.serviceRoutine"><code class="xref py py-class docutils literal"><span class="pre">gestalt.functions.serviceRoutine</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootReadRequest.actionObject">
+<em class="property">class </em><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootReadRequest.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.core.actionObject" title="gestalt.core.actionObject"><code class="xref py py-class docutils literal"><span class="pre">gestalt.core.actionObject</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootReadRequest.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><em>pageNumber</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootReadRequest.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootWriteRequest">
+<em class="property">class </em><code class="descclassname">baseStandardGestaltNode.</code><code class="descname">bootWriteRequest</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootWriteRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.functions.serviceRoutine" title="gestalt.functions.serviceRoutine"><code class="xref py py-class docutils literal"><span class="pre">gestalt.functions.serviceRoutine</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootWriteRequest.actionObject">
+<em class="property">class </em><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootWriteRequest.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.core.actionObject" title="gestalt.core.actionObject"><code class="xref py py-class docutils literal"><span class="pre">gestalt.core.actionObject</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.bootWriteRequest.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><em>pageNumber</em>, <em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.bootWriteRequest.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.identifyRequest">
+<em class="property">class </em><code class="descclassname">baseStandardGestaltNode.</code><code class="descname">identifyRequest</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.identifyRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.functions.serviceRoutine" title="gestalt.functions.serviceRoutine"><code class="xref py py-class docutils literal"><span class="pre">gestalt.functions.serviceRoutine</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.identifyRequest.actionObject">
+<em class="property">class </em><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.identifyRequest.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.core.actionObject" title="gestalt.core.actionObject"><code class="xref py py-class docutils literal"><span class="pre">gestalt.core.actionObject</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.identifyRequest.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.identifyRequest.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.initBootload">
+<code class="descclassname">baseStandardGestaltNode.</code><code class="descname">initBootload</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.initBootload" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.loadProgram">
+<code class="descclassname">baseStandardGestaltNode.</code><code class="descname">loadProgram</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.loadProgram" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loads a program into a Gestalt Node via the built-in Gestalt bootloader.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.resetRequest">
+<em class="property">class </em><code class="descclassname">baseStandardGestaltNode.</code><code class="descname">resetRequest</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.resetRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.functions.serviceRoutine" title="gestalt.functions.serviceRoutine"><code class="xref py py-class docutils literal"><span class="pre">gestalt.functions.serviceRoutine</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.resetRequest.actionObject">
+<em class="property">class </em><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.resetRequest.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.core.actionObject" title="gestalt.core.actionObject"><code class="xref py py-class docutils literal"><span class="pre">gestalt.core.actionObject</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.resetRequest.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.resetRequest.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.runApplication">
+<code class="descclassname">baseStandardGestaltNode.</code><code class="descname">runApplication</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.runApplication" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.setIPRequest">
+<em class="property">class </em><code class="descclassname">baseStandardGestaltNode.</code><code class="descname">setIPRequest</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.setIPRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.functions.serviceRoutine" title="gestalt.functions.serviceRoutine"><code class="xref py py-class docutils literal"><span class="pre">gestalt.functions.serviceRoutine</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.setIPRequest.actionObject">
+<em class="property">class </em><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.setIPRequest.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.core.actionObject" title="gestalt.core.actionObject"><code class="xref py py-class docutils literal"><span class="pre">gestalt.core.actionObject</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.setIPRequest.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><em>IP</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.setIPRequest.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.statusRequest">
+<em class="property">class </em><code class="descclassname">baseStandardGestaltNode.</code><code class="descname">statusRequest</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.statusRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.functions.serviceRoutine" title="gestalt.functions.serviceRoutine"><code class="xref py py-class docutils literal"><span class="pre">gestalt.functions.serviceRoutine</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.statusRequest.actionObject">
+<em class="property">class </em><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.statusRequest.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.core.actionObject" title="gestalt.core.actionObject"><code class="xref py py-class docutils literal"><span class="pre">gestalt.core.actionObject</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.statusRequest.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.statusRequest.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.urlRequest">
+<em class="property">class </em><code class="descclassname">baseStandardGestaltNode.</code><code class="descname">urlRequest</code><span class="sig-paren">(</span><em>virtualNode=None</em>, <em>packetSet=None</em>, <em>responseFlag=None</em>, <em>packetHolder=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.urlRequest" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.functions.serviceRoutine" title="gestalt.functions.serviceRoutine"><code class="xref py py-class docutils literal"><span class="pre">gestalt.functions.serviceRoutine</span></code></a></p>
+<dl class="class">
+<dt id="gestalt.nodes.baseStandardGestaltNode.urlRequest.actionObject">
+<em class="property">class </em><code class="descname">actionObject</code><span class="sig-paren">(</span><em>serviceRoutine</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.urlRequest.actionObject" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.core.actionObject" title="gestalt.core.actionObject"><code class="xref py py-class docutils literal"><span class="pre">gestalt.core.actionObject</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.nodes.baseStandardGestaltNode.urlRequest.actionObject.init">
+<code class="descname">init</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseStandardGestaltNode.urlRequest.actionObject.init" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.baseVirtualNode">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">baseVirtualNode</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseVirtualNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>base class for creating virtual nodes</p>
+<dl class="method">
+<dt id="gestalt.nodes.baseVirtualNode.init">
+<code class="descname">init</code><span class="sig-paren">(</span><em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.baseVirtualNode.init" title="Permalink to this definition">¶</a></dt>
+<dd><p>Dummy initializer for terminal child class.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.compoundNode">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">compoundNode</code><span class="sig-paren">(</span><em>*nodes</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.compoundNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>A compound node helps distribute and synchronize function calls across multiple nodes.</p>
+<dl class="class">
+<dt id="gestalt.nodes.compoundNode.distributor">
+<em class="property">class </em><code class="descname">distributor</code><span class="sig-paren">(</span><em>compoundNode</em>, <em>attribute</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.compoundNode.distributor" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>The distributor is responsible for forwarding function calls made on the compound node to its constituents.</p>
+<p>Arguments provided as tuples will be distributed individually. Non-tuple arguments will be duplicated to all
+nodes.</p>
+<dl class="method">
+<dt id="gestalt.nodes.compoundNode.distributor.nodeFunctionCall">
+<code class="descname">nodeFunctionCall</code><span class="sig-paren">(</span><em>node</em>, <em>attribute</em>, <em>args</em>, <em>kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.compoundNode.distributor.nodeFunctionCall" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.gestaltNodeShell">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">gestaltNodeShell</code><span class="sig-paren">(</span><em>name=None</em>, <em>interface=None</em>, <em>filename=None</em>, <em>URL=None</em>, <em>module=None</em>, <em>persistence=&lt;function &lt;lambda&gt;&gt;</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.gestaltNodeShell" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.nodes.baseNodeShell" title="gestalt.nodes.baseNodeShell"><code class="xref py py-class docutils literal"><span class="pre">gestalt.nodes.baseNodeShell</span></code></a></p>
+<p>Base class for all nodes which communicate using the gestalt protocol.</p>
+<dl class="method">
+<dt id="gestalt.nodes.gestaltNodeShell.generateIPAddress">
+<code class="descname">generateIPAddress</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.gestaltNodeShell.generateIPAddress" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generates a random IP address.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.networkedGestaltNode">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">networkedGestaltNode</code><span class="sig-paren">(</span><em>name=None</em>, <em>interface=None</em>, <em>filename=None</em>, <em>URL=None</em>, <em>module=None</em>, <em>persistence=&lt;function &lt;lambda&gt;&gt;</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.networkedGestaltNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.nodes.gestaltNodeShell" title="gestalt.nodes.gestaltNodeShell"><code class="xref py py-class docutils literal"><span class="pre">gestalt.nodes.gestaltNodeShell</span></code></a></p>
+<p>A container shell for Networked/Gestalt nodes.</p>
+<p>Networked/Gestalt nodes are networked and use the gestalt communications protocol.
+Both the older Fabnet hardware as well as boards based on Units of Fab are supported.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.soloGestaltNode">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">soloGestaltNode</code><span class="sig-paren">(</span><em>name=None</em>, <em>interface=None</em>, <em>filename=None</em>, <em>URL=None</em>, <em>module=None</em>, <em>persistence=&lt;function &lt;lambda&gt;&gt;</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.soloGestaltNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.nodes.gestaltNodeShell" title="gestalt.nodes.gestaltNodeShell"><code class="xref py py-class docutils literal"><span class="pre">gestalt.nodes.gestaltNodeShell</span></code></a></p>
+<p>A container shell for Solo/Gestalt nodes.</p>
+<p>Solo/Gestalt nodes are non-networked and use the gestalt communications protocol.
+For example they might make use of the gsArduino library.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.nodes.soloIndependentNode">
+<em class="property">class </em><code class="descclassname">gestalt.nodes.</code><code class="descname">soloIndependentNode</code><span class="sig-paren">(</span><em>name=None</em>, <em>interface=None</em>, <em>filename=None</em>, <em>URL=None</em>, <em>module=None</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.nodes.soloIndependentNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.nodes.baseNodeShell" title="gestalt.nodes.baseNodeShell"><code class="xref py py-class docutils literal"><span class="pre">gestalt.nodes.baseNodeShell</span></code></a></p>
+<p>A container shell for Solo/Independent nodes.</p>
+<p>Solo/Independent nodes are non-networked and may use an arbitrary communications protocol.
+For example, they could be a third-party device with a python plug-in, etc...</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-gestalt.packets">
+<span id="gestalt-packets-module"></span><h2>gestalt.packets module<a class="headerlink" href="#module-gestalt.packets" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="gestalt.packets.pInteger">
+<em class="property">class </em><code class="descclassname">gestalt.packets.</code><code class="descname">pInteger</code><span class="sig-paren">(</span><em>keyName</em>, <em>numBytes</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pInteger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.packets.packetToken" title="gestalt.packets.packetToken"><code class="xref py py-class docutils literal"><span class="pre">gestalt.packets.packetToken</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.packets.pInteger.decode">
+<code class="descname">decode</code><span class="sig-paren">(</span><em>inputPacket</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pInteger.decode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.packets.pInteger.encode">
+<code class="descname">encode</code><span class="sig-paren">(</span><em>inputDict</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pInteger.encode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.packets.pLength">
+<em class="property">class </em><code class="descclassname">gestalt.packets.</code><code class="descname">pLength</code><a class="headerlink" href="#gestalt.packets.pLength" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.packets.packetToken" title="gestalt.packets.packetToken"><code class="xref py py-class docutils literal"><span class="pre">gestalt.packets.packetToken</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.packets.pLength.decode">
+<code class="descname">decode</code><span class="sig-paren">(</span><em>inputPacket</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pLength.decode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.packets.pLength.encode">
+<code class="descname">encode</code><span class="sig-paren">(</span><em>inputDict</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pLength.encode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.packets.pList">
+<em class="property">class </em><code class="descclassname">gestalt.packets.</code><code class="descname">pList</code><span class="sig-paren">(</span><em>keyName</em>, <em>numBytes=False</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pList" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.packets.packetToken" title="gestalt.packets.packetToken"><code class="xref py py-class docutils literal"><span class="pre">gestalt.packets.packetToken</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.packets.pList.decode">
+<code class="descname">decode</code><span class="sig-paren">(</span><em>inputPacket</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pList.decode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.packets.pList.encode">
+<code class="descname">encode</code><span class="sig-paren">(</span><em>inputDict</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pList.encode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.packets.pString">
+<em class="property">class </em><code class="descclassname">gestalt.packets.</code><code class="descname">pString</code><span class="sig-paren">(</span><em>keyName</em>, <em>numBytes=False</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pString" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <a class="reference internal" href="#gestalt.packets.packetToken" title="gestalt.packets.packetToken"><code class="xref py py-class docutils literal"><span class="pre">gestalt.packets.packetToken</span></code></a></p>
+<dl class="method">
+<dt id="gestalt.packets.pString.decode">
+<code class="descname">decode</code><span class="sig-paren">(</span><em>inputPacket</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pString.decode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.packets.pString.encode">
+<code class="descname">encode</code><span class="sig-paren">(</span><em>inputDict</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.pString.encode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.packets.packet">
+<em class="property">class </em><code class="descclassname">gestalt.packets.</code><code class="descname">packet</code><span class="sig-paren">(</span><em>template</em>, <em>value=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.packet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">list</span></code></p>
+<dl class="method">
+<dt id="gestalt.packets.packet.decode">
+<code class="descname">decode</code><span class="sig-paren">(</span><em>decodeList=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.packet.decode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.packets.packet.spawn">
+<code class="descname">spawn</code><span class="sig-paren">(</span><em>outputList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.packet.spawn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.packets.packetHolder">
+<em class="property">class </em><code class="descclassname">gestalt.packets.</code><code class="descname">packetHolder</code><a class="headerlink" href="#gestalt.packets.packetHolder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="gestalt.packets.packetHolder.get">
+<code class="descname">get</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.packetHolder.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.packets.packetHolder.put">
+<code class="descname">put</code><span class="sig-paren">(</span><em>Packet</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.packetHolder.put" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.packets.packetSet">
+<em class="property">class </em><code class="descclassname">gestalt.packets.</code><code class="descname">packetSet</code><span class="sig-paren">(</span><em>Packet</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.packetSet" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.packets.packetToken">
+<em class="property">class </em><code class="descclassname">gestalt.packets.</code><code class="descname">packetToken</code><a class="headerlink" href="#gestalt.packets.packetToken" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="gestalt.packets.packetToken.decode">
+<code class="descname">decode</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.packetToken.decode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.packets.packetToken.encode">
+<code class="descname">encode</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.packets.packetToken.encode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="gestalt-setup-module">
+<h2>gestalt.setup module<a class="headerlink" href="#gestalt-setup-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="gestalt-testmachine-module">
+<h2>gestalt.testMachine module<a class="headerlink" href="#gestalt-testmachine-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-gestalt.utilities">
+<span id="gestalt-utilities-module"></span><h2>gestalt.utilities module<a class="headerlink" href="#module-gestalt.utilities" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="gestalt.utilities.bytesToInt">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">bytesToInt</code><span class="sig-paren">(</span><em>bytes</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.bytesToInt" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.intToBytes">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">intToBytes</code><span class="sig-paren">(</span><em>integer</em>, <em>numbytes</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intToBytes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="gestalt.utilities.intelHexParser">
+<em class="property">class </em><code class="descclassname">gestalt.utilities.</code><code class="descname">intelHexParser</code><a class="headerlink" href="#gestalt.utilities.intelHexParser" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Parses Intel Hex Files for Bootloading and Memory Programming.</p>
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.checkAddressContinuity">
+<code class="descname">checkAddressContinuity</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.checkAddressContinuity" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.dataList">
+<code class="descname">dataList</code><span class="sig-paren">(</span><em>data</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.dataList" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.integerRecord">
+<code class="descname">integerRecord</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.integerRecord" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.loadHexFile">
+<code class="descname">loadHexFile</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.loadHexFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.openHexFile">
+<code class="descname">openHexFile</code><span class="sig-paren">(</span><em>filename=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.openHexFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.processDataRecord">
+<code class="descname">processDataRecord</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.processDataRecord" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.processEndOfFileRecord">
+<code class="descname">processEndOfFileRecord</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.processEndOfFileRecord" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.processExtendedLinearAddressRecord">
+<code class="descname">processExtendedLinearAddressRecord</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.processExtendedLinearAddressRecord" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.processExtendedSegmentAddressRecord">
+<code class="descname">processExtendedSegmentAddressRecord</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.processExtendedSegmentAddressRecord" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.processStartLinearAddressRecord">
+<code class="descname">processStartLinearAddressRecord</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.processStartLinearAddressRecord" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.processStartSegmentAddressRecord">
+<code class="descname">processStartSegmentAddressRecord</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.processStartSegmentAddressRecord" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.recordParser">
+<code class="descname">recordParser</code><span class="sig-paren">(</span><em>record</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.recordParser" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.resetParser">
+<code class="descname">resetParser</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.resetParser" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.intelHexParser.returnPages">
+<code class="descname">returnPages</code><span class="sig-paren">(</span><em>pageSize</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.intelHexParser.returnPages" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.listToString">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">listToString</code><span class="sig-paren">(</span><em>numList</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.listToString" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.notice">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">notice</code><span class="sig-paren">(</span><em>source=None</em>, <em>message=''</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.notice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sends a notice to the user.</p>
+<p>For now, this just prints to the screen. But eventually, could re-route via a web interface.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.utilities.persistenceManager">
+<em class="property">class </em><code class="descclassname">gestalt.utilities.</code><code class="descname">persistenceManager</code><span class="sig-paren">(</span><em>filename=None</em>, <em>namespace=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.persistenceManager" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Handles interacting with persistence files.</p>
+<dl class="method">
+<dt id="gestalt.utilities.persistenceManager.get">
+<code class="descname">get</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.persistenceManager.get" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.persistenceManager.readPersistenceDictionary">
+<code class="descname">readPersistenceDictionary</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.persistenceManager.readPersistenceDictionary" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.persistenceManager.set">
+<code class="descname">set</code><span class="sig-paren">(</span><em>name</em>, <em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.persistenceManager.set" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.utilities.persistenceManager.writePersistenceDictionary">
+<code class="descname">writePersistenceDictionary</code><span class="sig-paren">(</span><em>persistenceDict</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.persistenceManager.writePersistenceDictionary" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.vectorAbs">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">vectorAbs</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.vectorAbs" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.vectorDivide">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">vectorDivide</code><span class="sig-paren">(</span><em>vector1</em>, <em>vector2</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.vectorDivide" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.vectorInt">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">vectorInt</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.vectorInt" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.vectorLength">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">vectorLength</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.vectorLength" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.vectorMCUSign">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">vectorMCUSign</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.vectorMCUSign" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.vectorMax">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">vectorMax</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.vectorMax" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.vectorMultiply">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">vectorMultiply</code><span class="sig-paren">(</span><em>vector1</em>, <em>vector2</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.vectorMultiply" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="gestalt.utilities.vectorSign">
+<code class="descclassname">gestalt.utilities.</code><code class="descname">vectorSign</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.utilities.vectorSign" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-gestalt">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-gestalt" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="gestalt.Nodes.html" class="btn btn-neutral float-right" title="gestalt.Nodes package" accesskey="n">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="modules.html" class="btn btn-neutral" title="gestalt" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Ilan Moyer.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'-',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

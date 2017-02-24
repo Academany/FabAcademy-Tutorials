@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>gestalt.publish package &mdash; gestalt - documentation</title>
+  
+
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+
+  
+    <link rel="top" title="gestalt - documentation" href="../index.html"/>
+        <link rel="up" title="gestalt package" href="gestalt.html"/>
+        <link rel="prev" title="gestalt.Nodes package" href="gestalt.Nodes.html"/> 
+
+  
+  <script src="_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        
+
+        
+          <a href="../index.html" class="icon icon-home"> gestalt
+        
+
+        
+        </a>
+
+        
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+        
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+          
+          
+              <ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="gestalt.html">gestalt package</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="gestalt.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="gestalt.Nodes.html">gestalt.Nodes package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-001a-module">gestalt.Nodes.086-001a module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-003a-module">gestalt.Nodes.086-003a module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-005a-boot-module">gestalt.Nodes.086-005a_boot module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-092-001b-module">gestalt.Nodes.092-001b module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynetworkednode-module">gestalt.Nodes.dummyNetworkedNode module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynode-module">gestalt.Nodes.dummyNode module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummysolonode-module">gestalt.Nodes.dummySoloNode module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.kuka">gestalt.Nodes.kuka module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.printrboard">gestalt.Nodes.printrboard module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l3 current"><a class="current reference internal" href="">gestalt.publish package</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-gestalt.publish.publish">gestalt.publish.publish module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-gestalt.publish.rpc">gestalt.publish.rpc module</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#module-gestalt.publish">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#module-gestalt.core">gestalt.core module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#module-gestalt.functions">gestalt.functions module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#module-gestalt.interfaces">gestalt.interfaces module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#module-gestalt.machines">gestalt.machines module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#module-gestalt.nodes">gestalt.nodes module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#module-gestalt.packets">gestalt.packets module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#gestalt-setup-module">gestalt.setup module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#gestalt-testmachine-module">gestalt.testMachine module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#module-gestalt.utilities">gestalt.utilities module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.html#module-gestalt">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="gestalt.Nodes.html">gestalt.Nodes package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-001a-module">gestalt.Nodes.086-001a module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-003a-module">gestalt.Nodes.086-003a module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-086-005a-boot-module">gestalt.Nodes.086-005a_boot module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-092-001b-module">gestalt.Nodes.092-001b module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynetworkednode-module">gestalt.Nodes.dummyNetworkedNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummynode-module">gestalt.Nodes.dummyNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#gestalt-nodes-dummysolonode-module">gestalt.Nodes.dummySoloNode module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.kuka">gestalt.Nodes.kuka module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes.printrboard">gestalt.Nodes.printrboard module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gestalt.Nodes.html#module-gestalt.Nodes">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">gestalt.publish package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.publish.publish">gestalt.publish.publish module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.publish.rpc">gestalt.publish.rpc module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-gestalt.publish">Module contents</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">gestalt</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="gestalt.html">gestalt package</a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="gestalt.html#subpackages">Subpackages</a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="gestalt.Nodes.html">gestalt.Nodes package</a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="">gestalt.publish package</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#submodules">Submodules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#module-gestalt.core">gestalt.core module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#module-gestalt.functions">gestalt.functions module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#module-gestalt.interfaces">gestalt.interfaces module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#module-gestalt.machines">gestalt.machines module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#module-gestalt.nodes">gestalt.nodes module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#module-gestalt.packets">gestalt.packets module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#gestalt-setup-module">gestalt.setup module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#gestalt-testmachine-module">gestalt.testMachine module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#module-gestalt.utilities">gestalt.utilities module</a></li>
+<li class="toctree-l3"><a class="reference internal" href="gestalt.html#module-gestalt">Module contents</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+          
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../index.html">gestalt</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../index.html">Docs</a> &raquo;</li>
+      
+          <li><a href="modules.html">gestalt</a> &raquo;</li>
+      
+          <li><a href="gestalt.html">gestalt package</a> &raquo;</li>
+      
+    <li>gestalt.publish package</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/api/gestalt.publish.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document">
+            
+  <div class="section" id="gestalt-publish-package">
+<h1>gestalt.publish package<a class="headerlink" href="#gestalt-publish-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-gestalt.publish.publish">
+<span id="gestalt-publish-publish-module"></span><h2>gestalt.publish.publish module<a class="headerlink" href="#module-gestalt.publish.publish" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="gestalt.publish.publish.publisher">
+<em class="property">class </em><code class="descclassname">gestalt.publish.publish.</code><code class="descname">publisher</code><span class="sig-paren">(</span><em>portNumber=None</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.publish.publisher" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<dl class="method">
+<dt id="gestalt.publish.publish.publisher.addInterfaces">
+<code class="descname">addInterfaces</code><span class="sig-paren">(</span><em>*interfaces</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.publish.publisher.addInterfaces" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.publish.publisher.addNodes">
+<code class="descname">addNodes</code><span class="sig-paren">(</span><em>*nodes</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.publish.publisher.addNodes" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.publish.publisher.evaluateInterface">
+<code class="descname">evaluateInterface</code><span class="sig-paren">(</span><em>interface</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.publish.publisher.evaluateInterface" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.publish.publisher.evaluateNode">
+<code class="descname">evaluateNode</code><span class="sig-paren">(</span><em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.publish.publisher.evaluateNode" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gestalt.publish.rpc">
+<span id="gestalt-publish-rpc-module"></span><h2>gestalt.publish.rpc module<a class="headerlink" href="#module-gestalt.publish.rpc" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="gestalt.publish.rpc.fileRPCDispatch">
+<em class="property">class </em><code class="descclassname">gestalt.publish.rpc.</code><code class="descname">fileRPCDispatch</code><a class="headerlink" href="#gestalt.publish.rpc.fileRPCDispatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Reads in remote procedure calls from a file and executes them.</p>
+<dl class="method">
+<dt id="gestalt.publish.rpc.fileRPCDispatch.addFunctions">
+<code class="descname">addFunctions</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.fileRPCDispatch.addFunctions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds functions provided as arguments to the list of externally accessible functions.</p>
+<p>Input to the function is a series of tuples (externalName, function).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.fileRPCDispatch.executeLine">
+<code class="descname">executeLine</code><span class="sig-paren">(</span><em>line</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.fileRPCDispatch.executeLine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Reads a string input and parses and then executes.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.fileRPCDispatch.loadFromFile">
+<code class="descname">loadFromFile</code><span class="sig-paren">(</span><em>fileName</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.fileRPCDispatch.loadFromFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.fileRPCDispatch.loadFromURL">
+<code class="descname">loadFromURL</code><span class="sig-paren">(</span><em>URL</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.fileRPCDispatch.loadFromURL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.fileRPCDispatch.reset">
+<code class="descname">reset</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.fileRPCDispatch.reset" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.fileRPCDispatch.runFile">
+<code class="descname">runFile</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.fileRPCDispatch.runFile" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.fileRPCDispatch.runSingle">
+<code class="descname">runSingle</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.fileRPCDispatch.runSingle" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="gestalt.publish.rpc.httpRPCDispatch">
+<em class="property">class </em><code class="descclassname">gestalt.publish.rpc.</code><code class="descname">httpRPCDispatch</code><span class="sig-paren">(</span><em>address='localhost'</em>, <em>port=7272</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">object</span></code></p>
+<p>Receives remote procedure calls over HTTP and calls them from the server thread.</p>
+<dl class="class">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.HTTPHandler">
+<em class="property">class </em><code class="descname">HTTPHandler</code><span class="sig-paren">(</span><em>request</em>, <em>client_address</em>, <em>server</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.HTTPHandler" title="Permalink to this definition">¶</a></dt>
+<dd><p>Bases: <code class="xref py py-class docutils literal"><span class="pre">BaseHTTPServer.BaseHTTPRequestHandler</span></code></p>
+<p>RPC Handler for requests using an HTTP protocol.</p>
+<dl class="attribute">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.allowAllOrigins">
+<code class="descname">allowAllOrigins</code><em class="property"> = False</em><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.allowAllOrigins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.allowOrigins">
+<code class="descname">allowOrigins</code><em class="property"> = []</em><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.allowOrigins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.do_GET">
+<code class="descname">do_GET</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.do_GET" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.functions">
+<code class="descname">functions</code><em class="property"> = {}</em><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.functions" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="attribute">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.jsonEncoder">
+<code class="descname">jsonEncoder</code><em class="property"> = &lt;json.encoder.JSONEncoder object&gt;</em><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.jsonEncoder" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.log_message">
+<code class="descname">log_message</code><span class="sig-paren">(</span><em>format</em>, <em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.HTTPHandler.log_message" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.addFunctions">
+<code class="descclassname">httpRPCDispatch.</code><code class="descname">addFunctions</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.addFunctions" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds functions provided as arguments to the list of externally accessible functions.</p>
+<p>Input to the function is a series of tuples (externalName, function).</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.addOrigins">
+<code class="descclassname">httpRPCDispatch.</code><code class="descname">addOrigins</code><span class="sig-paren">(</span><em>*args</em><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.addOrigins" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adds origins provided as arguments to the list of origins which can access the rpc interface.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.allowAllOrigins">
+<code class="descclassname">httpRPCDispatch.</code><code class="descname">allowAllOrigins</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.allowAllOrigins" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="gestalt.publish.rpc.httpRPCDispatch.start">
+<code class="descclassname">httpRPCDispatch.</code><code class="descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#gestalt.publish.rpc.httpRPCDispatch.start" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-gestalt.publish">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-gestalt.publish" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="gestalt.Nodes.html" class="btn btn-neutral" title="gestalt.Nodes package" accesskey="p"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2015, Ilan Moyer.
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'-',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>

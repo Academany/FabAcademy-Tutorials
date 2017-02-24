@@ -2,8 +2,6 @@
 
 ## You need to create a FabISP as a first exercise for working with electronics. *But what if you don't have another FabISP or a commercial ISP to program it?* You can use any Arduino UNO for this task!
 
-
-
 **Summary:**
 
 * Code
@@ -37,6 +35,11 @@ You can then upload the code to your Arduino.
 >Note: This step needs to be done while the Arduino is still not connected to the board you need to program, or you will get an error.
 
 ### Step 2 Setup
+
+**After(!) programming the arduino, connect a 10 uF capacitor between RESET and GND.**
+
+Read why here
+>This has to do with the special way we will be using the arduino after we programmed it with the ArduinoISP sketch. Now we want to send code through it, not reprogram it. If we leave out the capacitor the arduino will interpret us sending code to it as an attempting to reprogram it and do an automatic reset, sending the code that we inteded for our FabISP to the arduino bootloader instead. If we include the capacitor, it absorbs the reset pulse and lets us send the code through the arduino to the FabISP card being programmed instead.[source](http://forum.arduino.cc/index.php?topic=104435.0)
 
 According to the setup of the code, you can then connect Arduino with your FabISP, something like this:
 
