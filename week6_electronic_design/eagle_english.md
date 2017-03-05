@@ -326,7 +326,7 @@ _Bonus links for further reading_
 [Anna Kaziunas France ](http://www.kaziunas.com/site/bio.html)  
 
 ###### Updated by:
-[Eduardo Chamorro](http://eduardochamorro.github.io/beansreels/index.html) | Fab Lab Seoul | 01.2017 | Remixed to markdown
+[Eduardo Chamorro](http://eduardochamorro.github.io/beansreels/index.html) | Fab Lab Seoul | 01.2017 | Remixed to markdown  
 Craig Hobern | Fab Lab Wgtn | 2017-02-21 | Convert to Markdown, Update for eagle 8.0.1  
 
 ![Creative Commons
