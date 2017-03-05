@@ -48,7 +48,7 @@
 
 ### Week 6: Electronics Design
 
-* [Introduction to EAGLE](week6_electronic_design/introduction_to_eagle.md)
+* [Introduction to EAGLE](week6_electronic_design/eagle_english.md)
 * [Why did we put a 20MHz crystal on the Hello FTDI?](week6_electronic_design/about_clock_speed.md)
 * [Eagle Resources](week6_electronic_design/eagle_resources.md)
 
