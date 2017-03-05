@@ -185,6 +185,12 @@ It is faster to cut foam than wood because it offers less resistance and can be 
 
 [More images of 3d cutting](http://blog.kaziunas.com/?p=4839)
 
+### Chocolate
+
+Difficult to get smooth result but tasty!
+![image](cnc_tips/chocolate.jpg)
+
+
 **Original tutorial by:**
 
 * [Anna Kaziunas France](http://www.kaziunas.com/site/404.php)
