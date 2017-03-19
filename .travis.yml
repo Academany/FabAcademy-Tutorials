@@ -1,0 +1,14 @@
+{
+  "language": "bash",
+  "services": [
+    "docker"
+  ],
+  "before_install": [
+    "docker info",
+    "docker version",
+    "echo \"==> Build with Docker ...\"",
+    "docker run --rm -v \"$PWD:/gitbook\" -p 4000:4000 billryan/gitbook gitbook build"
+  ],
+  "dist": "trusty",
+  "os": "linux"
+}
