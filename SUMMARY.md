@@ -38,7 +38,7 @@
 * [PCB with a fiber laser cutter](week4_electronic_production/fiber_laser_pcb.md)
 * [Flexible_PCB_windows_english](week4_electronic_production/flexible_pcb_windows_mac.md)
 * [Fab Isp-Other models](week4_electronic_production/fabisp_models.md)
-* [ATtiny44 fuses]()
+
 
 
 ### Week 5: 3D scanning and printing
@@ -62,6 +62,9 @@
 
 * [What is Make and Makefiles](week8_embedded_programming/makefile.md)
 * [Timing an AVR microcontroller](week8_embedded_programming/timing.md)
+* [ATtiny44 fuses](week8_electronic_production/attiny44_fuses.md)
+* [ATtiny Using C](week8_electronic_production/attiny_c.md)
+* [ATtiny Using Arduino](week8_electronic_production/attiny_arduino.md)
 
 ### Week 9: Machine Building
 
@@ -83,6 +86,7 @@
 ### Week 15: Networking and communications
 
 * [ESP8266 Introduction](week15_networking_and_communications/esp8266.md)
+* [Hello Serial Bus C](week15_networking_and_communications/helloserialbus-c.md)
 
 ### Week 16: Interface and application Programming
 
