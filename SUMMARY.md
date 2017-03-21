@@ -62,9 +62,9 @@
 
 * [What is Make and Makefiles](week8_embedded_programming/makefile.md)
 * [Timing an AVR microcontroller](week8_embedded_programming/timing.md)
-* [ATtiny44 fuses](week8_electronic_production/attiny44_fuses.md)
-* [ATtiny Using C](week8_electronic_production/attiny_c.md)
-* [ATtiny Using Arduino](week8_electronic_production/attiny_arduino.md)
+* [ATtiny44 fuses](week8_embedded_programming/attiny44_fuses.md)
+* [ATtiny Using C](week8_embedded_programming/attiny_c.md)
+* [ATtiny Using Arduino](week8_embedded_programming/attiny_arduino.md)
 
 ### Week 9: Machine Building
 
