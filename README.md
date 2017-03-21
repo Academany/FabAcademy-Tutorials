@@ -20,10 +20,7 @@ A living collection of tutorials to support Fab Academy, hosted in the [Academan
 
 **GUIDE OF TUTORIAL DOCUMENTING**
 
-
 * If you want to add a tutorial, go to the [github](https://github.com/Academany/FabAcademy-Tutorials) to add it and ask to merge.
-
-* If you want to add a tutorial, go to the [github](https://github.com/Academany/FabAcademy-Tutorials) to add it and ask to merge. 
 
 * You will find a folder for each week/assignment tutorial.
 
