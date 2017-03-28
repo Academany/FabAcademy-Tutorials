@@ -39,8 +39,6 @@
 * [Flexible_PCB_windows_english](week4_electronic_production/flexible_pcb_windows_mac.md)
 * [Fab Isp-Other models](week4_electronic_production/fabisp_models.md)
 
-
-
 ### Week 5: 3D scanning and printing
 
 * [Introduction to 3d scanning and printing- Video](week5_3dscanning_and_printing/3d_scanning_printing.md)
@@ -91,6 +89,12 @@
 ### Week 16: Interface and application Programming
 
 * [Resources for Processing](week16_interface_and_application_programming/processing_resources.md)
+* [Python](week16_interface_and_application_programming/python.md)
+* [Reading serial data with Python](week16_interface_and_application_programming/python_serial.md)
+* [Pure Data - Arduino](week16_interface_and_application_programming/puredata_serial.md)
+* [Python Web Serial Console](week16_interface_and_application_programming/python_web.md)
+* [Intro to wxPython](week16_interface_and_application_programming/python_wx.md)
+* [Read Serial with Kivy(Python)](week16_interface_and_application_programming/python_kivy.md)
 
 ### Bonus:
 

@@ -2,8 +2,7 @@
 
 ## Program Your Board in C to Echo Back Keyboard Input
 
-This tutorial shows you how to program an  
-    ATtiny44A microcontroller on your Hello Button + LED board that we made during the [Electronics Design week](http://academy.cba.mit.edu/classes/electronics_design/index.html) using Neil's C code to echo back keyboard input.
+This tutorial shows you how to program an ATtiny44A microcontroller on your Hello Button + LED board that we made during the [Electronics Design week](http://academy.cba.mit.edu/classes/electronics_design/index.html) using Neil's C code to echo back keyboard input.
 
 ### Necessary Toolchain Software
 

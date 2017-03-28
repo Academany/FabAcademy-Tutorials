@@ -40,6 +40,7 @@ Open your traces image file (This is the one with lines that will form the wires
 * x0(mm)  - *0*  
 * y0(mm)  - *0*
 * z0(mm)  - *0*
+These x0,y0,z0 are for setting up an offset from the origin save in V-Panel
 * zjopg   - *12*  
 * Speed   - *4 or 3 mm/s for new end mills*
 
