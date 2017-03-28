@@ -261,9 +261,7 @@ Unzip the firmware
 
 Download the firmware (right click on the link below and save it to your desktop):
 
-[FabISP Firmware for MacOS 10.8.2](http://www.as220.org/fabacademy/downloads/fabISP_mac.0.8.2_firmware.zip) (Mountain Lion, possibly for Lion too?)
-
-[FabISP Firmware for earlier versions of MacOS](http://academy.cba.mit.edu/classes/embedded_programming/firmware.zip)
+[FabISP Firmware](https://github.com/Academany/FabAcademany-Resources/blob/master/files/firmware_44.zip) (right click save as)
 
 Open terminal navigate to the desktop:
 

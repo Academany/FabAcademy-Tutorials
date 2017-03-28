@@ -133,7 +133,7 @@ Installing the toolchain on Windows is slightly more complicated. Separate instr
 
 ### Get and Build the Firmware
 
-Download the [firmware source code](fabtinyisp/fts_firmware_bdm_v1.zip) and extract the zip file (on Linux, `unzip fts_firmware_bdm_v1.zip`). Open your terminal program and cd into the source code directory.  
+Download the [firmware source code](https://github.com/Academany/FabAcademany-Resources/blob/master/files/firmware_45.zip) and extract the zip file (on Linux, `unzip firmware_45.zip`). Open your terminal program and cd into the source code directory.  
 
 Run `make`. This will build the hex file that will get programmed onto the ATtiny45. When the command completes, you should now have a file called `fts_firmware.hex`. If the command doesn't complete successfully, something is wrong with your toolchain installation. Consult the error messages for information that will help you debug it.  
 

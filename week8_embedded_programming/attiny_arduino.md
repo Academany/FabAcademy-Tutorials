@@ -5,9 +5,7 @@ The assignment for this week is to read a microcontroller [datasheet](http://aca
 
 ## <a name="LED_board" id="LED_board"></a>Arduino: Program your Hello Button + LED Board
 
-This tutorial shows you how to program an  
-          ATtiny44A microcontroller on your Hello Button + LED board that we made during the [Electronics Design week](http://academy.cba.mit.edu/classes/electronics_design/index.html) using the Arduino software.  The ATtiny44A is a small, cheap microcontrollers that are
-          convenient for running simple programs.
+This tutorial shows you how to program an ATtiny44A microcontroller on your Hello Button + LED board that we made during the [Electronics Design week](http://academy.cba.mit.edu/classes/electronics_design/index.html) using the Arduino software.  The ATtiny44A is a small, cheap microcontrollers that are convenient for running simple programs.
 
 _This content is extracted from: [http://hlt.media.mit.edu/?p=1695](http://hlt.media.mit.edu/?p=1695)__and revised to work with the Hello Button + LED board example._
 
@@ -19,7 +17,7 @@ You need an in-system programmer (ISP) use the[ FabISP](http://academy.cba.mit.e
 
 ##### Download the Arduino IDE Software
 
-        You'll need the Arduino software,. You can [download Arduino ](http://arduino.cc/en/Main/Software) from the Arduino site.  Installation instructions are available [for Windows](http://arduino.cc/en/Guide/Windows) and [for Mac OS X](http://arduino.cc/en/Guide/MacOSX).
+You'll need the Arduino software,. You can [download Arduino ](http://arduino.cc/en/Main/Software) from the Arduino site.  Installation instructions are available [for Windows](http://arduino.cc/en/Guide/Windows) and [for Mac OS X](http://arduino.cc/en/Guide/MacOSX).
 
 
 ##### Make Sure You Have the FTDI Drivers Installed
@@ -28,7 +26,7 @@ Get the drivers for your OS here: [http://www.ftdichip.com/Drivers/VCP.htm](http
 
 ### ATtiny 44A Microcontroller Pin-Outs
 
-        Note that the pinouts on the microcontroller are not the same numbers in the Arduino code. The microcontroller pin number is listed on the microcontroller body below.  The corresponding Arduino pin is listed on the outside - to the right or left.
+Note that the pinouts on the microcontroller are not the same numbers in the Arduino code. The microcontroller pin number is listed on the microcontroller body below.  The corresponding Arduino pin is listed on the outside - to the right or left.
 
 
 #### ATtiny 44A vs. Arduino Pin-Out Numbering
