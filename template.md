@@ -1,65 +1,42 @@
-# YOUR TUTORIAL TITLE
+# Tutorial title
+- Original tutorial by: John Doe
+- Your lab name: Moon Lab
+- License: CC-SA-BY
+- Last Review Date: 01/12/2016
+- Last Modified by: Agent Smith
 
-## Short description of the tutorial itself and a Hero shot of the assignment.
-![image](yourtutorialnamefolder/1.jpg)
+## Summary
+Short description of the tutorial itself and a representative image of the tutorial.
 
-**Summary:**
-
-* [Link](example web address)
-* STEP BY STEP SHORT DESCRIPTION
-*
-*
-*
-*
-
-### Step 1 (DESCRIPTION OF THE STEP)
-Text explaining what to do.
-* List of elements/tools
-*
-*
-Links for other sources/ useful information [link](example link)
-[link](example link)
-
-### Step 2: (DESCRIPTION OF THE STEP) *clarifier*
+## Step 1. Description of the step
 Text explaining what to do.
 
-![image](yourtutorialnamefolder/1.jpg)
+## Step 2. Description of the step
+Text explaining what to do.
 
-[![Embedded Video](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
+## Problems faced and solutions
 
-[Video Link](https://youtubevideourl)
+- First Problem description
 
->IMPORTANT STEP NOT TO MISS
+  > Solution found
 
-* Value or settings for software/machine
-* x0(mm)  - *0*  
-* y0(mm)  - *0*
-* z0(mm)  - *0*
+- Second Problem description
 
-*Clarifier on the settings*
+  > Solution found
 
-Click **"calculate"**
->Explanation of an important action
+## Machines and software used and settings
 
-![image](yourtutorialnamefolder/5.jpg)
+  * Machine used
+  * Spindle Speed
+  * Feed Rate
+  * Power
 
-**FINISH TUTORIAL - Enjoy your WELL DONE assignment and clean your mess and files after you're done !**
+## Links for other sources / useful information
+  - [Link 1]()
+  - [Link 2]()
 
-### COMMON PROBLEMS/SOLUTIONS
-
-- PROBLEM 1
-
-  >SOLUTION 1
-  >SOLUTION2
-
-- PROBLEM 2
-
-  >SOLUTION 1
-  >SOLUTION2
-
-**Original tutorial by:**
-
-* [Your name](link to your site)
-Your lab name | v1.0 | date
-
-* Updated by...
+## Original Design files
+* [CAD file]()
+* [Electronics Schematic]()
+* [Electronics board]()
+* [Code]()
