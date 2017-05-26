@@ -1,7 +1,6 @@
 # FabAcademy-Tutorials Summary
 * [Introduction](README.md)
 * [Tutorials Template](template.md)
-* [License](LICENSE.md)
 
 ### Week 1: Principles & Practices, Project Management
 
